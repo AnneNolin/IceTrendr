@@ -1,0 +1,20 @@
+ENVI
+description = {
+  User Defined Mask Image [Mon Sep 14 13:39:35 2015]}
+samples = 2600
+lines   = 1300
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 1
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+x start = 4843
+y start = 4266
+map info = {Albers, 1.0000, 1.0000, -2830928.8733, 4810556.7485, 3.0000000000e+001, 3.0000000000e+001, North America 1983, units=Meters}
+projection info = {9, 6378137.0, 6356752.3, 23.000000, -96.000000, 0.0, 0.0, 29.500000, 45.500000, North America 1983, Albers, units=Meters}
+wavelength units = Unknown
+default stretch = 0.000000 1.000000 linear
+band names = {
+ Mask Band}

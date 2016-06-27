@@ -1,0 +1,28 @@
+Instructions for creating a 6-band ledaps *.bsq from Landsat Climate Data Record with UTM projection in geoTiff output.
+_________________________
+1. Navigate to the directory: /mnt/IceTrendr/code/IceTrendr-2012/pre-processing/stacking/
+
+2. to display usage ./targz2ledaps.py -h
+Usage: targz2ledaps.py -i targz_path -o outdir_path -p projection_path&filename [-s] [-tc type] [-h]
+-s do not mask snow in cfmask
+-tc type = 'sr' or 'toa'
+-h print usage
+
+
+This program unarchive targz files in a temp directory under targz_path and creates *_(year)_(*day)_ledaps.bsq, *_(year)_(day)_cfmask.bsq, and *_(year)_(day)_tc.bsq and puts them in outdir_path/year.
+
+
+The projection file is used to create _ledaps.bsq and _cfmask.bsq.
+
+
+'-i', '-o', and '-p' paths/filename are required.
+
+
+The '-s' option allows for snow identified in the ledaps cfmask file to be excluded when the cloudmask is created. The default is for snow to be masked along with cloud, shadow, and L7 scanline pixels in the output cloudmask.
+
+
+The '-tc type' option is used to specify the type of TasselCap coefficient to use. Only two types are possible: 'sr' or 'toa'. The default is type='sr'.
+
+
+3. Enter parameters for ./targz2ledaps.py (note the './' is required)
+./targz2ledaps.py -i /mnt/IceTrendr/wolverine/images_raw/cdr_targz_geotiff/ -o /mnt/IceTrendr/wolverine/images/ -p /mnt/IceTrendr/code/IceTrendr-2012/pre-processing/stacking/albers.txt -s -sr
