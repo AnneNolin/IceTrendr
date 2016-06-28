@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Panel xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx" width="200" height="200">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			
+			[Bindable]
+			public var chips:ArrayCollection = new ArrayCollection();
+			
+			public function refresh():void {
+				var ofv:IFactory = chipList.itemRenderer;
+				chipList.itemRenderer = null;
+				chipList.itemRenderer = ofv;
+			}
+		]]>
+	</fx:Script>
+	<s:List id="chipList" x="0" y="0" 
+			minWidth="5" minHeight="5" 
+			width="100%" height="100%" 
+			dataProvider="{chips}"
+			skinClass="org.larse.skin.ChipSkin"
+			/>
+</s:Panel>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fx:Object xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		   xmlns:s="library://ns.adobe.com/flex/spark" 
+		   xmlns:mx="library://ns.adobe.com/flex/mx" 
+		   xmlns:parsley="http://www.spicefactory.org/parsley" 
+		   xmlns:model="org.larse.model.*"
+		   >
+	
+	<fx:Declarations>
+		<model:PlotModel />
+		<model:ImageListModel/>
+		<model:SpectralPropertyModel/>
+		<model:GlobalModel/>
+	
+		<parsley:DynamicCommand type="org.larse.controller.LookupGetAllCommand" />
+		<parsley:DynamicCommand type="org.larse.controller.PlotGetAllCommand" selector="get_all_plots" />
+		<parsley:DynamicCommand type="org.larse.controller.ImageListGetCommand" selector="get_image_list" />
+		<parsley:DynamicCommand type="org.larse.controller.PlotSpectralGetCommand" selector="get_plot_spectrals" />
+
+		<parsley:DynamicCommand type="org.larse.controller.PlotVertexLoadCommand" selector="load_vertices" />
+		<parsley:DynamicCommand type="org.larse.controller.PlotProcessLoadCommand" selector="load_process" />
+		
+		<parsley:DynamicCommand type="org.larse.controller.AssignmentGetCommand" selector="get_user_assignments" />
+
+		<parsley:DynamicCommand type="org.larse.controller.LoginCommand" selector="login" />
+
+	</fx:Declarations>
+</fx:Object>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009"
+		 xmlns:s="library://ns.adobe.com/flex/spark"
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 xmlns:parsley="http://www.spicefactory.org/parsley"
+		 creationComplete="init(event)"
+		 width="480" height="300" xmlns:components="org.larse.components.*">
+	<fx:Declarations>
+		<parsley:Configure/>
+	</fx:Declarations>
+	<s:layout>
+		<s:VerticalLayout/>
+	</s:layout>
+
+	<fx:Style>
+		@namespace s "library://ns.adobe.com/flex/spark";
+		@namespace mx "library://ns.adobe.com/flex/mx";
+
+		s|HGroup {
+			fontSize: "12";
+		}
+
+	</fx:Style>
+
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			import mx.events.FlexEvent;
+
+			import org.larse.events.PlotEvent;
+			import org.larse.model.GlobalModel;
+			import org.larse.model.PlotModel;
+			import org.larse.tsclass.ChangeProcess;
+			import org.larse.tsclass.LtLuLc;
+
+			private var confs:Array = ["High", "Medium", "Low"];
+
+			[Inject]
+			[Bindable]
+			public var global:GlobalModel;
+
+			[Inject]
+			[Bindable]
+			public var plotModel:PlotModel;
+
+			[Bindable]
+			private var confidences:ArrayCollection;
+
+			[Bindable]
+			private var confidences2:ArrayCollection;
+
+
+			private var _startLu:LtLuLc = new LtLuLc();
+			[Bindable]
+			public function get startLu():LtLuLc {
+				return _startLu;
+			}
+
+			public function set startLu(value:LtLuLc):void {
+				_startLu = value;
+				_startend.setItemAt(_startLu, 0);
+				_endlcs.setItemAt(_startLu, 0);
+				_startend.refresh();
+
+			}
+
+			private var _endLu:LtLuLc = new LtLuLc("After");
+			[Bindable]
+			public function get endLu():LtLuLc {
+				return _endLu;
+			}
+
+			public function set endLu(value:LtLuLc):void {
+				_endLu = value;
+				_startend.setItemAt(_endLu, 1);
+				_startend.refresh();
+			}
+
+
+			[Bindable]
+			private var _startend:ArrayCollection = new ArrayCollection();
+
+			[Bindable]
+			private var _endlcs:ArrayCollection = new ArrayCollection();
+
+			private var _changeProcess:ChangeProcess = new ChangeProcess();
+			[Bindable]
+			public function get changeProcess():ChangeProcess {
+				return _changeProcess;
+			}
+
+			public function set changeProcess(value:ChangeProcess):void {
+				_changeProcess = value;
+			}
+
+			private var processes:Array = [
+							"Stable",
+       							"Glacier Retreat",
+       							"Glacier Advance",
+       							"Albedo Increase",
+       							"Albedo Decrease",
+       							"Debris flow",
+       							"Water - Glacier Flood",
+       							"Water - Fluvial Changes",
+       							"Water - Supraglacial",
+       							"Vegetation Growth",
+       							"Other"];
+
+			//private var lus:Array = [
+			//		"Ice - glacier", 
+    			//		"Snow", 
+    			//		"Tundra",
+    			//		"Barren land",
+    			//		"Water",
+			//		"Vegetated",
+    			//		"Urban"];
+
+			protected function init(event:FlexEvent):void
+			{
+				confidences = new ArrayCollection(confs);
+				confidences2 = new ArrayCollection(confs); // add N/A for trajectory
+				confidences2.addItem("N/A");
+
+				_startend.addItem(_startLu);
+				_startend.addItem(_endLu);
+				_endlcs.addItem(_startLu);
+
+				change_processes.dataProvider = new ArrayCollection(processes);
+			}
+		]]>
+	</fx:Script>
+
+	<s:BorderContainer width="350" height="110" cornerRadius="8">
+		<s:VGroup horizontalAlign="right" paddingTop="1" paddingLeft="5" paddingRight="5" paddingBottom="1">
+			<s:HGroup width="100%" textAlign="left" verticalAlign="middle">
+				<s:Label fontWeight="bold" text="Change Process"/>
+				<s:DropDownList id="change_processes" x="-18" width="225"
+								labelField="name"
+								selectedItem="@{changeProcess.changeProcess}">
+				</s:DropDownList>
+			</s:HGroup>
+			<s:HGroup width="100%" textAlign="left" verticalAlign="middle">
+				<s:Group width="100%">
+					<s:Rect width="100%" height="100%">
+						<s:fill>
+							<s:SolidColor color="0xcccccc"/>
+						</s:fill>
+					</s:Rect>
+					<s:VGroup top="5">
+						<s:Label width="100%" height="100%" fontWeight="bold" paddingBottom="10"
+								 text="Confidence" textAlign="center"/>
+					</s:VGroup>
+					<s:VGroup horizontalAlign="right" width="100%">
+						<s:HGroup verticalAlign="middle">
+							<s:Label text="Polygon Shape: "/>
+							<s:DropDownList dataProvider="{confidences}" selectedItem="@{changeProcess.shapeConfidence}"/>
+						</s:HGroup>
+						<s:HGroup verticalAlign="middle">
+							<s:Label text="Polygon Context: "/>
+							<s:DropDownList dataProvider="{confidences}" selectedItem="@{changeProcess.contextConfidence}"/>
+						</s:HGroup>
+						<s:HGroup verticalAlign="middle">
+							<s:Label text="Polygon Time Series: "/>
+							<s:DropDownList dataProvider="{confidences2}" selectedItem="@{changeProcess.trajectoryConfidence}"/>
+						</s:HGroup>
+					</s:VGroup>
+				</s:Group>
+			</s:HGroup>
+		</s:VGroup>
+	</s:BorderContainer>
+
+	<s:BorderContainer width="440" height="92" borderWeight="0" borderAlpha="0" cornerRadius="8">
+		<s:VGroup>
+		<s:DataGrid left="0" right="0" top="1" bottom="5" dataProvider="{_startend}"
+					editable="true" resizableColumns="false"
+					sortableColumns="false">
+			<s:columns>
+				<s:ArrayList>
+					<s:GridColumn dataField="category"
+								  headerText=""
+								  width="50"
+								  editable="false"/>
+					<!--
+					<s:GridColumn dataField="dominantLandUse"
+								  headerText="Land Function"
+								  itemEditor="org.larse.components.LandUseEditor"
+								  width="200"/>
+					-->
+					<s:GridColumn dataField="dominantLandCover"
+								  headerText="Land Cover "
+								  itemEditor="org.larse.components.LandCoverEditor"
+								  width="195"/>
+					<!--
+					<s:GridColumn dataField="confidence"
+								  headerText="Confidence"
+								  width="80"
+								  itemEditor="org.larse.components.ConfidenceEditor"
+								  />
+					-->
+				</s:ArrayList>
+			</s:columns>
+			<s:typicalItem>
+				<s:DataItem category="Start" dominantLandUse="Natural non-forest vegetation"
+							dominantLandCover="Herbaceous" confidence="Confidence"/>
+			</s:typicalItem>
+		</s:DataGrid>
+		<!--
+		<s:HGroup verticalAlign="middle">
+			<s:Label text="End Land Cover:"/>
+		-->
+			<!--
+			<s:DropDownList id="endLc" width="125" selectedItem="@{startLu.endDominantLandCover}"/>
+			<components:SimpleLandCoverEditor id="endlcs" width="125" height="25"/>
+			-->
+		<!--
+			<components:SimpleLandCoverEditor id="endlcs" height="25"/>
+			<s:DataGrid left="0" right="0" top="29" bottom="29" height="25" dataProvider="{_endlcs}"
+						editable="true" resizableColumns="false"
+						skinClass="org.larse.skin.DGNoHeaderSkin" sortableColumns="false">
+				<s:columns>
+					<s:ArrayList>
+						<s:GridColumn dataField="endDominantLandCover"
+									  itemEditor="org.larse.components.LandCoverEditor"
+									  width="195"/>
+					</s:ArrayList>
+				</s:columns>
+				<s:typicalItem>
+					<s:DataItem category="Start" dominantLandUse="Natural non-forest vegetation"
+								dominantLandCover="Herbaceous" confidence="Confidence"/>
+				</s:typicalItem>
+			</s:DataGrid>
+		</s:HGroup>
+		-->
+
+		</s:VGroup>
+	</s:BorderContainer>
+</s:Group>

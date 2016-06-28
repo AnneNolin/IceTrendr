@@ -1,0 +1,3970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>prj101_polygon_Bering_GE</name>
+	<open>1</open>
+	<Document id="selected_Bering_TimeSync_plots_albers_pixel">
+		<name>prj_101_Bering4USGS_plots</name>
+		<Snippet maxLines="0"></Snippet>
+		<StyleMap id="PolyStyle001">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#PolyStyle000</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#PolyStyle00</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="PolyStyle000">
+			<LabelStyle>
+				<color>00000000</color>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff0000ff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="PolyStyle00">
+			<LabelStyle>
+				<color>00000000</color>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff0000ff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="FeatureLayer0">
+			<name>selected_Bering_TimeSync_plots_albers_pixel</name>
+			<open>1</open>
+			<Snippet maxLines="0"></Snippet>
+			<Placemark>
+				<name>4850</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.670627,60.46598000000001,0 -143.670862,60.46624299999999,0 -143.670433,60.466387,0 -143.670198,60.466124,0 -143.670627,60.46598000000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>5101</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.665901,60.463828,0 -143.666137,60.46409199999999,0 -143.665708,60.464236,0 -143.665472,60.463973,0 -143.665901,60.463828,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>5352</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.661177,60.461677,0 -143.661412,60.46194,0 -143.660983,60.462084,0 -143.660748,60.461821,0 -143.661177,60.461677,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>5603</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.656453,60.459525,0 -143.656688,60.459789,0 -143.656259,60.45993299999999,0 -143.656024,60.45967000000001,0 -143.656453,60.459525,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>7109</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.628122,60.446612,0 -143.628357,60.446875,0 -143.627928,60.447019,0 -143.627693,60.446756,0 -143.628122,60.446612,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>7862</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.613965,60.440153,0 -143.6142,60.440416,0 -143.613771,60.44055999999999,0 -143.613536,60.44029700000001,0 -143.613965,60.440153,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>8413</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.38217,60.44000799999999,0 -143.382404,60.440271,0 -143.381975,60.44041500000001,0 -143.381741,60.44015099999999,0 -143.38217,60.44000799999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>8615</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.599814,60.433692,0 -143.600049,60.433955,0 -143.59962,60.434099,0 -143.599385,60.433836,0 -143.599814,60.433692,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>8639</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.490918,60.435773,0 -143.491152,60.43603600000001,0 -143.490723,60.43618,0 -143.490489,60.435917,0 -143.490918,60.435773,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>8653</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.427388,60.436946,0 -143.427622,60.437209,0 -143.427193,60.437353,0 -143.426959,60.43709,0 -143.427388,60.436946,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>9158</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.404366,60.432872,0 -143.4046,60.433136,0 -143.40417,60.433279,0 -143.403937,60.433016,0 -143.404366,60.432872,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>9619</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.580954,60.425076,0 -143.581189,60.42533900000001,0 -143.58076,60.425483,0 -143.580525,60.42522,0 -143.580954,60.425076,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>10145</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.462673,60.422824,0 -143.462907,60.423087,0 -143.462478,60.423231,0 -143.462244,60.422968,0 -143.462673,60.422824,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>10336</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.730057,60.415364,0 -143.730293,60.415627,0 -143.729864,60.415772,0 -143.729629,60.41550899999999,0 -143.730057,60.415364,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>10372</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.566816,60.418611,0 -143.56705,60.418875,0 -143.566622,60.419019,0 -143.566387,60.418755,0 -143.566816,60.418611,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>10416</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.367249,60.422309,0 -143.367483,60.422572,0 -143.367053,60.422716,0 -143.36682,60.422452,0 -143.367249,60.422309,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>10587</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.725336,60.413215,0 -143.725571,60.413478,0 -143.725143,60.413622,0 -143.724907,60.413359,0 -143.725336,60.413215,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>10601</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.661861,60.414499,0 -143.662096,60.414762,0 -143.661668,60.414907,0 -143.661433,60.414644,0 -143.661861,60.414499,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>10650</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.439657,60.418756,0 -143.439891,60.41902,0 -143.439462,60.41916300000001,0 -143.439228,60.4189,0 -143.439657,60.418756,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>10874</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.557394,60.41430100000001,0 -143.557628,60.41456399999999,0 -143.557199,60.414708,0 -143.556965,60.414445,0 -143.557394,60.41430100000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>10891</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.480304,60.41575899999999,0 -143.480538,60.416023,0 -143.480109,60.416167,0 -143.479875,60.415903,0 -143.480304,60.41575899999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>11075</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.779355,60.40760600000001,0 -143.77959,60.40786899999999,0 -143.779162,60.408013,0 -143.778927,60.40775099999999,0 -143.779355,60.40760600000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>11082</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.747625,60.40826499999999,0 -143.747861,60.408528,0 -143.747432,60.40867200000001,0 -143.747197,60.408409,0 -143.747625,60.40826499999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>11344</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.693043,60.407134,0 -143.693278,60.407397,0 -143.69285,60.407542,0 -143.692615,60.407279,0 -143.693043,60.407134,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>11377</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.54344,60.410077,0 -143.543674,60.41034,0 -143.543245,60.410484,0 -143.543011,60.41022099999999,0 -143.54344,60.410077,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>11846</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.683608,60.402833,0 -143.683843,60.403096,0 -143.683414,60.40323999999999,0 -143.683179,60.40297700000001,0 -143.683608,60.402833,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>12130</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.529315,60.403609,0 -143.52955,60.40387199999999,0 -143.529121,60.404016,0 -143.528887,60.403752,0 -143.529315,60.403609,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>12331</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.751211,60.396961,0 -143.751447,60.397224,0 -143.751018,60.397368,0 -143.750783,60.397105,0 -143.751211,60.396961,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>12419</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.352344,60.404608,0 -143.352577,60.404871,0 -143.352148,60.405014,0 -143.351915,60.40475099999999,0 -143.352344,60.404608,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>12582</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.746491,60.394812,0 -143.746726,60.395075,0 -143.746298,60.39522,0 -143.746063,60.394957,0 -143.746491,60.394812,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>12883</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.515197,60.397139,0 -143.515431,60.397402,0 -143.515002,60.39754600000001,0 -143.514768,60.397282,0 -143.515197,60.397139,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>13636</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.501084,60.39066699999999,0 -143.501318,60.39093100000001,0 -143.500889,60.39107400000001,0 -143.500655,60.390811,0 -143.501084,60.39066699999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>13838</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.718369,60.38416,0 -143.718604,60.384423,0 -143.718176,60.384567,0 -143.717941,60.384304,0 -143.718369,60.38416,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>13857</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.6323,60.385891,0 -143.632535,60.386153,0 -143.632106,60.386298,0 -143.631872,60.38603499999999,0 -143.6323,60.385891,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>14089</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.713653,60.38201,0 -143.713888,60.382273,0 -143.71346,60.382417,0 -143.713224,60.382154,0 -143.713653,60.38201,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>14138</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.491678,60.386352,0 -143.491912,60.38661500000001,0 -143.491483,60.386759,0 -143.491249,60.386496,0 -143.491678,60.386352,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>14422</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.337455,60.386905,0 -143.337688,60.387168,0 -143.337259,60.387312,0 -143.337026,60.387048,0 -143.337455,60.386905,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>14890</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.482104,60.379794,0 -143.482338,60.380057,0 -143.481909,60.380201,0 -143.481675,60.379938,0 -143.482104,60.379794,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>15345</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.685552,60.371351,0 -143.685787,60.371614,0 -143.685359,60.371758,0 -143.685124,60.371495,0 -143.685552,60.371351,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>15393</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.468175,60.375562,0 -143.468409,60.375825,0 -143.46798,60.375968,0 -143.467746,60.375705,0 -143.468175,60.375562,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>16099</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.66689,60.364988,0 -143.667125,60.365251,0 -143.666697,60.365395,0 -143.666462,60.365133,0 -143.66689,60.364988,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>16146</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.45408,60.36908499999999,0 -143.454314,60.369348,0 -143.453886,60.36949199999999,0 -143.453652,60.369229,0 -143.45408,60.36908499999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>16306</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.861335,60.358701,0 -143.861571,60.35896300000001,0 -143.861143,60.35910800000001,0 -143.860908,60.358845,0 -143.861335,60.358701,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>16380</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.52636,60.365486,0 -143.526594,60.365749,0 -143.526165,60.36589299999999,0 -143.525931,60.36563000000001,0 -143.52636,60.365486,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>16425</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.322583,60.3692,0 -143.322816,60.369464,0 -143.322387,60.369607,0 -143.322154,60.369343,0 -143.322583,60.3692,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>16808</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.851892,60.354411,0 -143.852128,60.354674,0 -143.8517,60.354818,0 -143.851464,60.354556,0 -143.851892,60.354411,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>16852</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.652761,60.358533,0 -143.652996,60.358796,0 -143.652568,60.35893999999999,0 -143.652333,60.35867700000001,0 -143.652761,60.358533,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>16883</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.512431,60.361258,0 -143.512665,60.361521,0 -143.512236,60.361665,0 -143.512002,60.361402,0 -143.512431,60.361258,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>17059</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.847171,60.352266,0 -143.847407,60.352529,0 -143.846979,60.352673,0 -143.846744,60.352411,0 -143.847171,60.352266,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>17636</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.498334,60.35478700000001,0 -143.498568,60.35504999999999,0 -143.498139,60.35519299999999,0 -143.497905,60.35493000000001,0 -143.498334,60.35478700000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>18062</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.832819,60.343589,0 -143.833054,60.343851,0 -143.832627,60.343996,0 -143.832391,60.343733,0 -143.832819,60.343589,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>18359</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.619996,60.34570699999999,0 -143.620231,60.34597,0 -143.619803,60.34611399999999,0 -143.619568,60.34585100000001,0 -143.619996,60.34570699999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>18389</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.484243,60.348313,0 -143.484477,60.34857600000001,0 -143.484048,60.34872,0 -143.483814,60.348457,0 -143.484243,60.348313,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>18428</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.307727,60.351494,0 -143.30796,60.351757,0 -143.307531,60.3519,0 -143.307298,60.351637,0 -143.307727,60.351494,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>18564</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.823384,60.339297,0 -143.823619,60.33956,0 -143.823192,60.339704,0 -143.822956,60.339442,0 -143.823384,60.339297,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>18815</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.818667,60.337151,0 -143.818903,60.337414,0 -143.818475,60.337558,0 -143.81824,60.33729600000001,0 -143.818667,60.337151,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>18953</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.194253,60.348923,0 -143.194486,60.349187,0 -143.194057,60.34933,0 -143.193824,60.349066,0 -143.194253,60.348923,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>19228</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.080939,60.348499,0 -143.081171,60.348763,0 -143.080742,60.348906,0 -143.08051,60.348642,0 -143.080939,60.348499,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>19339</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.70974,60.33492500000001,0 -143.709975,60.335187,0 -143.709547,60.33533099999999,0 -143.709312,60.335069,0 -143.70974,60.33492500000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>19393</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.465463,60.33968,0 -143.465697,60.339943,0 -143.465268,60.340086,0 -143.465034,60.339823,0 -143.465463,60.33968,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>19471</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.112481,60.34575700000001,0 -143.112714,60.34602,0 -143.112284,60.34616299999999,0 -143.112052,60.345899,0 -143.112481,60.34575700000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>19531</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.971811,60.32707599999999,0 -143.972047,60.327338,0 -143.97162,60.32748299999999,0 -143.971384,60.327221,0 -143.971811,60.32707599999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>19866</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.587257,60.33287300000001,0 -143.587491,60.333136,0 -143.587063,60.33328000000001,0 -143.586828,60.333017,0 -143.587257,60.33287300000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>20146</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.451385,60.333203,0 -143.451618,60.333466,0 -143.45119,60.333609,0 -143.450956,60.333346,0 -143.451385,60.333203,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>20205</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.18445,60.337857,0 -143.184682,60.338121,0 -143.184253,60.338263,0 -143.184021,60.338,0 -143.18445,60.337857,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>20287</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.94408,60.320955,0 -143.944316,60.321217,0 -143.943889,60.321362,0 -143.943653,60.3211,0 -143.94408,60.320955,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>20571</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.790189,60.32203000000001,0 -143.790425,60.322292,0 -143.789997,60.32243700000001,0 -143.789762,60.322174,0 -143.790189,60.32203000000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>20722</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.107231,60.334613,0 -143.107463,60.33487600000001,0 -143.107034,60.33501900000001,0 -143.106802,60.33475500000001,0 -143.107231,60.334613,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>20793</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.916559,60.31707,0 -143.916795,60.31733199999999,0 -143.916368,60.317477,0 -143.916132,60.31721399999999,0 -143.916559,60.31707,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>21050</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.884723,60.315518,0 -143.884959,60.315781,0 -143.884532,60.315925,0 -143.884296,60.315663,0 -143.884723,60.315518,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>21457</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.174653,60.32679,0 -143.174886,60.32705399999999,0 -143.174457,60.327196,0 -143.174224,60.32693299999999,0 -143.174653,60.32679,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>21478</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.079654,60.32831,0 -143.079886,60.32857400000001,0 -143.079456,60.328717,0 -143.079224,60.328453,0 -143.079654,60.32831,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>21940</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.251241,60.321024,0 -143.251474,60.321287,0 -143.251045,60.32143,0 -143.250812,60.321167,0 -143.251241,60.321024,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>22155</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.409349,60.31600600000001,0 -143.409582,60.31626899999999,0 -143.409154,60.31641199999999,0 -143.40892,60.31614900000001,0 -143.409349,60.31600600000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>22223</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.101841,60.32122500000001,0 -143.102073,60.32148900000001,0 -143.101644,60.32163099999999,0 -143.101412,60.32136800000001,0 -143.101841,60.32122500000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>22233</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.05661,60.321933,0 -143.056842,60.322196,0 -143.056412,60.322339,0 -143.05618,60.322075,0 -143.05661,60.321933,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>22327</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.761738,60.30690200000001,0 -143.761973,60.307164,0 -143.761545,60.307309,0 -143.76131,60.307046,0 -143.761738,60.30690200000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>22539</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.933229,60.300979,0 -143.933465,60.301241,0 -143.933038,60.301386,0 -143.932802,60.301124,0 -143.933229,60.300979,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>22690</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.250778,60.314295,0 -143.251011,60.314558,0 -143.250582,60.314701,0 -143.250349,60.314438,0 -143.250778,60.314295,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>22709</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.164863,60.315722,0 -143.165096,60.315986,0 -143.164667,60.316129,0 -143.164434,60.315865,0 -143.164863,60.315722,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>22746</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-142.997532,60.31834299999999,0 -142.997763,60.31860699999999,0 -142.997334,60.318749,0 -142.997102,60.318485,0 -142.997532,60.31834299999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>23190</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.250469,60.309809,0 -143.250702,60.310072,0 -143.250273,60.310215,0 -143.25004,60.309952,0 -143.250469,60.309809,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>23243</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.010824,60.313652,0 -143.011056,60.31391499999999,0 -143.010627,60.314057,0 -143.010395,60.31379399999999,0 -143.010824,60.313652,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>23304</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.864877,60.295733,0 -143.865112,60.29599499999999,0 -143.864685,60.29614,0 -143.86445,60.295877,0 -143.864877,60.295733,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>23424</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.322642,60.306321,0 -143.322875,60.306585,0 -143.322447,60.30672799999999,0 -143.322214,60.306465,0 -143.322642,60.306321,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>23474</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.096599,60.310081,0 -143.09683,60.31034400000001,0 -143.096401,60.31048700000001,0 -143.096169,60.31022300000001,0 -143.096599,60.310081,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>23690</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.250161,60.305323,0 -143.250393,60.305586,0 -143.249964,60.305729,0 -143.249732,60.305466,0 -143.250161,60.305323,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>23789</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.932224,60.28976999999999,0 -143.93246,60.290032,0 -143.932033,60.29017700000001,0 -143.931797,60.289915,0 -143.932224,60.28976999999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>23811</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.83287,60.29192699999999,0 -143.833105,60.29218999999999,0 -143.832678,60.292334,0 -143.832442,60.29207199999999,0 -143.83287,60.29192699999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>23851</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.652187,60.295659,0 -143.652421,60.29592099999999,0 -143.651994,60.296065,0 -143.651759,60.29580299999999,0 -143.652187,60.295659,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>23961</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.15508,60.30465399999999,0 -143.155312,60.304917,0 -143.154883,60.30506,0 -143.154651,60.30479699999999,0 -143.15508,60.30465399999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>24083</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.733313,60.291768,0 -143.733548,60.29203,0 -143.73312,60.292174,0 -143.732885,60.291912,0 -143.733313,60.291768,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>24190</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.249852,60.300837,0 -143.250085,60.3011,0 -143.249656,60.301243,0 -143.249423,60.30098,0 -143.249852,60.300837,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>24300</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.882154,60.286374,0 -143.882389,60.28663599999999,0 -143.881962,60.28678099999999,0 -143.881727,60.286519,0 -143.882154,60.286374,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>24589</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.70584,60.287838,0 -143.706075,60.288101,0 -143.705648,60.288245,0 -143.705413,60.287983,0 -143.70584,60.287838,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>24679</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.299252,60.2955,0 -143.299485,60.295763,0 -143.299057,60.295906,0 -143.298824,60.295643,0 -143.299252,60.2955,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>24725</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.09136,60.298936,0 -143.091592,60.29919900000001,0 -143.091163,60.29934200000001,0 -143.090931,60.29907800000001,0 -143.09136,60.298936,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>24798</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.890789,60.281694,0 -143.891024,60.281956,0 -143.890597,60.282101,0 -143.890362,60.28183899999999,0 -143.890789,60.281694,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>24854</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.637911,60.286959,0 -143.638145,60.287222,0 -143.637717,60.287366,0 -143.637483,60.287103,0 -143.637911,60.286959,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>24969</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.118334,60.296263,0 -143.118566,60.296526,0 -143.118137,60.29666900000001,0 -143.117905,60.29640500000001,0 -143.118334,60.296263,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>25213</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.145303,60.293585,0 -143.145536,60.293848,0 -143.145107,60.293991,0 -143.144875,60.293727,0 -143.145303,60.293585,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>25237</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.03684,60.295292,0 -143.037071,60.29555600000001,0 -143.036642,60.295698,0 -143.03641,60.295434,0 -143.03684,60.295292,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>25310</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.83622,60.278379,0 -143.836455,60.278641,0 -143.836028,60.278786,0 -143.835793,60.278523,0 -143.83622,60.278379,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>25597</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.668977,60.279601,0 -143.669211,60.279863,0 -143.668784,60.28000700000001,0 -143.668549,60.279745,0 -143.668977,60.279601,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>25630</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.519954,60.28251300000001,0 -143.520188,60.28277599999999,0 -143.51976,60.28291899999999,0 -143.519526,60.28265600000001,0 -143.519954,60.28251300000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>25684</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.276034,60.286918,0 -143.276267,60.287181,0 -143.275838,60.287324,0 -143.275605,60.28706,0 -143.276034,60.286918,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>25837</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.713944,60.276443,0 -143.714178,60.276706,0 -143.713751,60.27685,0 -143.713516,60.27658700000001,0 -143.713944,60.276443,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>25886</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.492685,60.280782,0 -143.492918,60.28104499999999,0 -143.49249,60.281188,0 -143.492257,60.280925,0 -143.492685,60.280782,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>26141</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.469934,60.27896100000001,0 -143.470168,60.27922399999999,0 -143.46974,60.27936699999999,0 -143.469506,60.279105,0 -143.469934,60.27896100000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>26226</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.085982,60.28554800000001,0 -143.086214,60.285811,0 -143.085785,60.285953,0 -143.085553,60.28569,0 -143.085982,60.28554800000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>26300</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.880575,60.26843899999999,0 -143.880811,60.268701,0 -143.880384,60.26884600000001,0 -143.880148,60.26858399999999,0 -143.880575,60.26843899999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>26397</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.44267,60.27722,0 -143.442904,60.277483,0 -143.442476,60.277626,0 -143.442242,60.277363,0 -143.44267,60.27722,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>26465</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.135534,60.282515,0 -143.135766,60.282778,0 -143.135337,60.28292,0 -143.135105,60.282657,0 -143.135534,60.282515,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>26559</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.839762,60.267073,0 -143.839997,60.26733500000001,0 -143.83957,60.267479,0 -143.839335,60.26721700000001,0 -143.839762,60.267073,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>26589</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.704358,60.269901,0 -143.704593,60.270163,0 -143.704166,60.270307,0 -143.703931,60.270045,0 -143.704358,60.269901,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>26653</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.415409,60.275473,0 -143.415643,60.275736,0 -143.415215,60.275879,0 -143.414981,60.275616,0 -143.415409,60.275473,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>26702</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.194109,60.279314,0 -143.194342,60.279577,0 -143.193913,60.27972,0 -143.193681,60.279457,0 -143.194109,60.279314,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>26824</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.771874,60.266262,0 -143.772109,60.266524,0 -143.771682,60.266668,0 -143.771447,60.266406,0 -143.771874,60.266262,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>26908</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.392667,60.273639,0 -143.3929,60.273902,0 -143.392472,60.274045,0 -143.392239,60.273782,0 -143.392667,60.273639,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>26988</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.031345,60.27965800000001,0 -143.031577,60.27992200000001,0 -143.031148,60.280064,0 -143.030916,60.2798,0 -143.031345,60.27965800000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27164</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.365411,60.271882,0 -143.365644,60.272145,0 -143.365216,60.272288,0 -143.364983,60.272025,0 -143.365411,60.271882,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27420</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.338158,60.270119,0 -143.338391,60.270382,0 -143.337963,60.270525,0 -143.33773,60.270262,0 -143.338158,60.270119,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27455</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.18011,60.272808,0 -143.180343,60.27307100000001,0 -143.179914,60.27321400000001,0 -143.179682,60.272951,0 -143.18011,60.272808,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27477</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.080751,60.274402,0 -143.080983,60.274666,0 -143.080554,60.274808,0 -143.080322,60.274545,0 -143.080751,60.274402,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27675</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.315423,60.26827099999999,0 -143.315656,60.26853499999999,0 -143.315228,60.26867799999999,0 -143.314995,60.26841399999999,0 -143.315423,60.26827099999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27693</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.234149,60.26966399999999,0 -143.234381,60.269927,0 -143.233953,60.27006999999999,0 -143.23372,60.26980699999999,0 -143.234149,60.26966399999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27717</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.12577,60.271444,0 -143.126002,60.271707,0 -143.125573,60.271849,0 -143.125341,60.271586,0 -143.12577,60.271444,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27719</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.116738,60.271588,0 -143.11697,60.27185100000001,0 -143.116541,60.27199400000001,0 -143.116309,60.27173000000001,0 -143.116738,60.271588,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27870</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.563535,60.261466,0 -143.563769,60.261728,0 -143.563342,60.261872,0 -143.563108,60.261609,0 -143.563535,60.261466,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27875</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.540969,60.2619,0 -143.541203,60.262162,0 -143.540775,60.262306,0 -143.540541,60.262043,0 -143.540969,60.2619,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27881</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.513888,60.262415,0 -143.514121,60.26267799999999,0 -143.513694,60.262822,0 -143.51346,60.262559,0 -143.513888,60.262415,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27931</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.288176,60.266498,0 -143.288409,60.26676100000001,0 -143.28798,60.266904,0 -143.287748,60.266641,0 -143.288176,60.266498,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27939</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.252056,60.267116,0 -143.252289,60.267379,0 -143.25186,60.267522,0 -143.251628,60.267259,0 -143.252056,60.267116,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>27944</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.229481,60.267497,0 -143.229713,60.26776,0 -143.229284,60.267903,0 -143.229052,60.26764,0 -143.229481,60.267497,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>28462</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.147909,60.26435100000001,0 -143.148141,60.264614,0 -143.147712,60.264757,0 -143.14748,60.264493,0 -143.147909,60.26435100000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>28573</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.775058,60.25047300000001,0 -143.775292,60.250735,0 -143.774865,60.25087899999999,0 -143.77463,60.250617,0 -143.775058,60.25047300000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>28690</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.24708,60.26046400000001,0 -143.247312,60.260727,0 -143.246884,60.260869,0 -143.246651,60.260606,0 -143.24708,60.26046400000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>28832</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.73427,60.249074,0 -143.734505,60.249336,0 -143.734078,60.24948,0 -143.733843,60.249218,0 -143.73427,60.249074,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>28969</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.116014,60.260372,0 -143.116246,60.260635,0 -143.115817,60.260778,0 -143.115585,60.260514,0 -143.116014,60.260372,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>29086</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.716041,60.247202,0 -143.716275,60.247465,0 -143.715848,60.247609,0 -143.715614,60.247346,0 -143.716041,60.247202,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>29340</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.697813,60.245328,0 -143.698047,60.24559,0 -143.69762,60.24573400000001,0 -143.697386,60.245472,0 -143.697813,60.245328,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>29398</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.436153,60.250391,0 -143.436386,60.250653,0 -143.435958,60.25079700000001,0 -143.435725,60.250534,0 -143.436153,60.250391,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>29462</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.147321,60.255378,0 -143.147553,60.255641,0 -143.147124,60.255784,0 -143.146892,60.255521,0 -143.147321,60.255378,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>29595</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.675077,60.243543,0 -143.675311,60.243805,0 -143.674884,60.243949,0 -143.67465,60.243686,0 -143.675077,60.243543,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>29849</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.656853,60.24166300000001,0 -143.657088,60.241925,0 -143.65666,60.24206899999999,0 -143.656426,60.241807,0 -143.656853,60.24166300000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>29942</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.237286,60.24940099999999,0 -143.237518,60.249664,0 -143.23709,60.249807,0 -143.236857,60.24954399999999,0 -143.237286,60.24940099999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>29953</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.187645,60.250229,0 -143.187877,60.25049199999999,0 -143.187448,60.250634,0 -143.187216,60.25037099999999,0 -143.187645,60.250229,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>30358</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.615902,60.237985,0 -143.616137,60.238247,0 -143.615709,60.23839100000001,0 -143.615475,60.238129,0 -143.615902,60.237985,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>30612</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.597685,60.23609699999999,0 -143.597919,60.236359,0 -143.597492,60.236503,0 -143.597258,60.236241,0 -143.597685,60.23609699999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>30717</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.124025,60.244526,0 -143.124257,60.244789,0 -143.123828,60.244931,0 -143.123597,60.244668,0 -143.124025,60.244526,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>30867</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.574961,60.234294,0 -143.575194,60.234557,0 -143.574767,60.2347,0 -143.574533,60.234438,0 -143.574961,60.234294,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>31076</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.759637,60.228334,0 -143.759871,60.228596,0 -143.759445,60.22874,0 -143.75921,60.228478,0 -143.759637,60.228334,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>31121</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.556748,60.232401,0 -143.556981,60.232663,0 -143.556554,60.232807,0 -143.55632,60.232544,0 -143.556748,60.232401,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>31169</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.34027,60.23639599999999,0 -143.340503,60.236659,0 -143.340075,60.236802,0 -143.339842,60.23653899999999,0 -143.34027,60.23639599999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>31375</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.538537,60.230505,0 -143.53877,60.230767,0 -143.538343,60.230911,0 -143.538109,60.230648,0 -143.538537,60.230505,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>31663</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.36701,60.231431,0 -143.367243,60.23169299999999,0 -143.366815,60.23183599999999,0 -143.366582,60.231574,0 -143.36701,60.231431,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>32157</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.393741,60.226459,0 -143.393974,60.226722,0 -143.393546,60.226865,0 -143.393313,60.226603,0 -143.393741,60.226459,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>32473</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.095947,60.229254,0 -143.096179,60.229517,0 -143.09575,60.229659,0 -143.095519,60.229396,0 -143.095947,60.229254,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>32651</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.420464,60.221483,0 -143.420697,60.221746,0 -143.420269,60.221889,0 -143.420036,60.221626,0 -143.420464,60.221483,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>32718</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.118354,60.226652,0 -143.118585,60.226915,0 -143.118157,60.227058,0 -143.117925,60.226794,0 -143.118354,60.226652,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>32963</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.140757,60.224047,0 -143.140988,60.22431,0 -143.14056,60.22445200000001,0 -143.140328,60.224189,0 -143.140757,60.224047,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>33208</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.163156,60.22143799999999,0 -143.163388,60.221701,0 -143.16296,60.221844,0 -143.162728,60.22158,0 -143.163156,60.22143799999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>33391</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.46504,60.213924,0 -143.465273,60.214187,0 -143.464845,60.21433,0 -143.464612,60.214068,0 -143.46504,60.213924,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>33453</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.185552,60.218825,0 -143.185784,60.219088,0 -143.185355,60.219231,0 -143.185123,60.21896799999999,0 -143.185552,60.218825,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>33698</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.207944,60.216209,0 -143.208176,60.21647200000001,0 -143.207748,60.21661399999999,0 -143.207515,60.21635100000001,0 -143.207944,60.216209,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>33943</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.230332,60.213589,0 -143.230564,60.213852,0 -143.230136,60.213994,0 -143.229904,60.213731,0 -143.230332,60.213589,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>34188</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.252717,60.210965,0 -143.252949,60.21122699999999,0 -143.252521,60.21137,0 -143.252289,60.211107,0 -143.252717,60.210965,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>34616</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.576828,60.20057,0 -143.577062,60.20083200000001,0 -143.576634,60.200976,0 -143.576401,60.200713,0 -143.576828,60.20057,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>34708</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.162269,60.207979,0 -143.162501,60.208242,0 -143.162073,60.208385,0 -143.161841,60.208122,0 -143.162269,60.207979,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>35211</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.148454,60.203713,0 -143.148686,60.203976,0 -143.148258,60.20411800000001,0 -143.148026,60.203855,0 -143.148454,60.203713,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>35699</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.202232,60.198339,0 -143.202464,60.198602,0 -143.202036,60.198745,0 -143.201804,60.198482,0 -143.202232,60.198339,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>35936</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.260651,60.19511000000001,0 -143.260883,60.19537299999999,0 -143.260455,60.19551599999999,0 -143.260223,60.19525300000001,0 -143.260651,60.19511000000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>35953</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.184059,60.196394,0 -143.184291,60.19665700000001,0 -143.183863,60.19680000000001,0 -143.183631,60.196537,0 -143.184059,60.196394,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>35965</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.129991,60.197274,0 -143.130223,60.197537,0 -143.129794,60.197679,0 -143.129563,60.197416,0 -143.129991,60.197274,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>36440</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.242324,60.19093,0 -143.242556,60.191193,0 -143.242128,60.191336,0 -143.241896,60.191073,0 -143.242324,60.19093,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>36456</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.170246,60.19213,0 -143.170478,60.192393,0 -143.17005,60.192535,0 -143.169818,60.192272,0 -143.170246,60.19213,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>36692</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.233162,60.188839,0 -143.233394,60.18910200000001,0 -143.232966,60.18924500000001,0 -143.232734,60.188982,0 -143.233162,60.188839,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>36925</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.309575,60.18528400000001,0 -143.309808,60.18554699999999,0 -143.30938,60.18568999999999,0 -143.309148,60.185427,0 -143.309575,60.18528400000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>36944</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.224001,60.18674800000001,0 -143.224233,60.18701099999999,0 -143.223805,60.187153,0 -143.223573,60.18688999999999,0 -143.224001,60.18674800000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>37196</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.214842,60.184656,0 -143.215074,60.184918,0 -143.214646,60.185061,0 -143.214414,60.184798,0 -143.214842,60.184656,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>37428</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.295751,60.181033,0 -143.295983,60.181296,0 -143.295556,60.181438,0 -143.295323,60.181176,0 -143.295751,60.181033,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>37448</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.205684,60.182563,0 -143.205916,60.182826,0 -143.205488,60.18296800000001,0 -143.205256,60.182705,0 -143.205684,60.182563,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>37467</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.120111,60.183959,0 -143.120342,60.184222,0 -143.119914,60.184365,0 -143.119683,60.184101,0 -143.120111,60.183959,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>37612</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.592723,60.17330900000001,0 -143.592957,60.173571,0 -143.59253,60.17371499999999,0 -143.592296,60.173452,0 -143.592723,60.17330900000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>37700</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.196526,60.180469,0 -143.196758,60.180732,0 -143.19633,60.180875,0 -143.196098,60.180612,0 -143.196526,60.180469,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>37952</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.18737,60.178375,0 -143.187602,60.17863800000001,0 -143.187174,60.17878,0 -143.186943,60.17851699999999,0 -143.18737,60.178375,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>38182</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.277272,60.174615,0 -143.277504,60.174878,0 -143.277077,60.17502,0 -143.276844,60.174758,0 -143.277272,60.174615,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>38361</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.596693,60.166493,0 -143.596927,60.166755,0 -143.5965,60.166899,0 -143.596266,60.166637,0 -143.596693,60.166493,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>38369</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.560691,60.16719400000001,0 -143.560925,60.167456,0 -143.560498,60.16759999999999,0 -143.560264,60.167338,0 -143.560691,60.16719400000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>38675</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.308473,60.169584,0 -143.308705,60.169846,0 -143.308277,60.169989,0 -143.308045,60.16972599999999,0 -143.308473,60.169584,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>38930</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.285809,60.167731,0 -143.286041,60.167994,0 -143.285614,60.168136,0 -143.285381,60.167874,0 -143.285809,60.167731,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>38936</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.258801,60.168194,0 -143.259033,60.168457,0 -143.258605,60.16860000000001,0 -143.258373,60.168337,0 -143.258801,60.168194,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>39110</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.600661,60.159678,0 -143.600895,60.15994,0 -143.600468,60.160083,0 -143.600234,60.159821,0 -143.600661,60.159678,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>39170</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.330662,60.164704,0 -143.330895,60.164966,0 -143.330467,60.165109,0 -143.330235,60.164847,0 -143.330662,60.164704,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>39187</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.254145,60.166028,0 -143.254377,60.166291,0 -143.25395,60.166433,0 -143.253718,60.16617,0 -143.254145,60.166028,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>39630</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.51033,60.156929,0 -143.510563,60.15719100000001,0 -143.510136,60.157335,0 -143.509903,60.157072,0 -143.51033,60.156929,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>39677</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.298843,60.160768,0 -143.299075,60.161031,0 -143.298647,60.161174,0 -143.298415,60.16091100000001,0 -143.298843,60.160768,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>39859</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.604628,60.152862,0 -143.604862,60.153124,0 -143.604435,60.153268,0 -143.604201,60.15300500000001,0 -143.604628,60.152862,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>40375</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.532308,60.149773,0 -143.532541,60.150035,0 -143.532114,60.150178,0 -143.531881,60.149916,0 -143.532308,60.149773,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>40413</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.361362,60.15293100000001,0 -143.361595,60.15319399999999,0 -143.361167,60.15333699999999,0 -143.360935,60.153074,0 -143.361362,60.15293100000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>40422</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.320869,60.15364699999999,0 -143.321102,60.15391,0 -143.320674,60.154053,0 -143.320442,60.15378999999999,0 -143.320869,60.15364699999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>40608</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.608593,60.14604600000001,0 -143.608826,60.146308,0 -143.6084,60.14645199999999,0 -143.608166,60.14619,0 -143.608593,60.14604600000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>40633</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.496152,60.148213,0 -143.496385,60.148476,0 -143.495958,60.148619,0 -143.495725,60.148357,0 -143.496152,60.148213,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>40872</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.545455,60.145029,0 -143.545688,60.14529100000001,0 -143.545261,60.145435,0 -143.545028,60.145172,0 -143.545455,60.145029,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>40891</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.46,60.146644,0 -143.460233,60.146907,0 -143.459806,60.14705,0 -143.459573,60.146787,0 -143.46,60.146644,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>40914</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.356542,60.14852599999999,0 -143.356774,60.148788,0 -143.356347,60.148931,0 -143.356114,60.148669,0 -143.356542,60.14852599999999,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>40925</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.307057,60.149397,0 -143.307289,60.14966,0 -143.306862,60.149803,0 -143.306629,60.14954,0 -143.307057,60.149397,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>41120</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.554275,60.142613,0 -143.554509,60.142875,0 -143.554082,60.143019,0 -143.553849,60.142757,0 -143.554275,60.142613,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>41396</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.437178,60.142575,0 -143.437411,60.142837,0 -143.436984,60.14298,0 -143.436751,60.142718,0 -143.437178,60.142575,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>41403</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.405696,60.14315,0 -143.405928,60.143413,0 -143.405501,60.143556,0 -143.405268,60.143293,0 -143.405696,60.14315,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>41415</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.351723,60.14412,0 -143.351955,60.144383,0 -143.351528,60.144525,0 -143.351295,60.144263,0 -143.351723,60.14412,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>41617</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.567417,60.137867,0 -143.56765,60.13812900000001,0 -143.567223,60.138273,0 -143.56699,60.13801100000001,0 -143.567417,60.137867,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>41890</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.463826,60.13759,0 -143.464059,60.13785200000001,0 -143.463632,60.137995,0 -143.463399,60.137733,0 -143.463826,60.13759,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>41911</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.369391,60.139314,0 -143.369624,60.13957599999999,0 -143.369197,60.139719,0 -143.368964,60.139457,0 -143.369391,60.139314,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>41916</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.346905,60.13971400000001,0 -143.347138,60.139977,0 -143.34671,60.14012,0 -143.346478,60.13985700000001,0 -143.346905,60.13971400000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>42156</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.391714,60.136667,0 -143.391947,60.13692900000001,0 -143.391519,60.137072,0 -143.391287,60.136809,0 -143.391714,60.136667,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>42362</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.589369,60.130702,0 -143.589602,60.13096399999999,0 -143.589176,60.131108,0 -143.588942,60.130845,0 -143.589369,60.130702,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>42380</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.50845,60.13226,0 -143.508683,60.13252199999999,0 -143.508256,60.132666,0 -143.508023,60.132403,0 -143.50845,60.13226,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>42639</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.467819,60.130778,0 -143.468052,60.13104,0 -143.467625,60.13118400000001,0 -143.467392,60.130921,0 -143.467819,60.130778,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>42648</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.427357,60.131526,0 -143.427589,60.131789,0 -143.427162,60.131932,0 -143.42693,60.131669,0 -143.427357,60.131526,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>42879</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.512603,60.12769000000001,0 -143.512836,60.127952,0 -143.51241,60.128095,0 -143.512177,60.12783300000001,0 -143.512603,60.12769000000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>42908</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.382234,60.1301,0 -143.382466,60.130363,0 -143.382039,60.130506,0 -143.381807,60.130243,0 -143.382234,60.1301,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>43107</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.611311,60.123533,0 -143.611545,60.123795,0 -143.611118,60.123939,0 -143.610885,60.123677,0 -143.611311,60.123533,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>43399</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.422366,60.12488,0 -143.422599,60.12514299999999,0 -143.422172,60.125286,0 -143.421939,60.125023,0 -143.422366,60.12488,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>43638</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.471641,60.121723,0 -143.471874,60.121986,0 -143.471448,60.122129,0 -143.471215,60.121867,0 -143.471641,60.121723,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>44127</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.520736,60.11630600000001,0 -143.520969,60.116568,0 -143.520542,60.116711,0 -143.520309,60.11644900000001,0 -143.520736,60.11630600000001,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>44387</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.47563,60.114911,0 -143.475863,60.115174,0 -143.475437,60.115317,0 -143.475204,60.115055,0 -143.47563,60.114911,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>44651</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.412555,60.113831,0 -143.412787,60.114093,0 -143.41236,60.114236,0 -143.412128,60.113974,0 -143.412555,60.113831,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>45903</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.40275,60.10278,0 -143.402983,60.103043,0 -143.402556,60.103185,0 -143.402323,60.102923,0 -143.40275,60.10278,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>46654</name>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#PolyStyle001</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-143.397769,60.096133,0 -143.398001,60.096396,0 -143.397575,60.096539,0 -143.397342,60.096276,0 -143.397769,60.096133,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Document>
+	<NetworkLink>
+		<name>IceTrendr Sites GLIMS outlines (Network Link)</name>
+		<Link>
+			<href>http://polygon.icetrendr.oregonstate.edu/kml/GLIMS_outlines_IceTrendrSites_GLIMS_GE.kml</href>
+		</Link>
+	</NetworkLink>
+</Folder>
+</kml>

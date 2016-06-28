@@ -1,0 +1,30 @@
+IceTrendr-polygon-2016 (AKA timesync)
+============================================
+
+visualization and interpretation of image time series
+
+1) Note this website code uses google-earth plugin which is now deprecated for all browsers. We are working on a more stable and robust plotform. If you want to try, please use GoogleEarthPluginSetup.exe, which have been tested on FireFox on Windows7.
+
+
+2) Will require (Adobe) flex installed on server. Adobe flex (or ApacheFlex) will handle client application to interact with timesync database. You can download ApacheFlex at: https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=34016162
+   or
+   https://cwiki.apache.org/confluence/display/FLEX/Installation+help
+
+Within the flex directory, update the following two lines in timesyncv2.mxml to match your local settings.
+
+	private var gateway:String = "gateway21.php";
+	private var server:String = "localhost";
+
+2a) To compile and generate an adobe swift file use mxmlc.
+
+3) In the services directory contain all the php which handles the business logic for communication with timesync database.  Please update the following lines in baseservice.php to match your local settings. 
+
+	protected $username = "User Name Here";
+	protected $password = "Password HERE";
+	protected $server = "Database Server";
+	protected $port = "Database Port";	(This is usually 3306)
+	protected $databasename = "Default Database"; 	(Name of SQL database. For example: IceTrendrPatch)
+
+
+4) Will also require installation of SQL for handling image database. Within the sql directory is DDL for IceTrendr (timesync) database
+

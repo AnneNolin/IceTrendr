@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:ComboBoxGridItemEditor xmlns:fx="http://ns.adobe.com/mxml/2009"
+						  xmlns:s="library://ns.adobe.com/flex/spark"
+						  xmlns:mx="library://ns.adobe.com/flex/mx"
+						  creationComplete="onCreationComplete(event)"
+						  width="400" height="300">
+	<fx:Declarations>
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			import mx.events.FlexEvent;
+
+			private var lus:Array = [
+					"Ice - glacier", 
+    					"Snow", 
+    					"Tundra",
+    					"Barren land",
+    					"Water",
+					"Vegetated",
+    					"Urban"];
+
+			protected function onCreationComplete(event:FlexEvent):void
+			{
+				this.comboBox.textInput.editable = false;
+				this.dataProvider = new ArrayCollection(lus);
+			}
+		]]>
+	</fx:Script>
+
+	<!--
+	<s:dataProvider>
+		<s:ArrayList>
+			<fx:String>Ice-glacier</fx:String>
+   			<fx:String>Snow</fx:String>
+   			<fx:String>Tundra</fx:String>
+   			<fx:String>Barren land</fx:String>
+   			<fx:String>Water</fx:String>
+   			<fx:String>Vegetated</fx:String>
+   			<fx:String>Urban</fx:String>
+		</s:ArrayList>
+	</s:dataProvider>
+	-->
+</s:ComboBoxGridItemEditor>

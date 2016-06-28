@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:ItemRenderer xmlns:fx="http://ns.adobe.com/mxml/2009"
+				xmlns:s="library://ns.adobe.com/flex/spark"
+				xmlns:mx="library://ns.adobe.com/flex/mx"
+				autoDrawBackground="true">
+
+	<fx:Script>
+		<![CDATA[
+			import org.larse.vos.Plot;
+
+			[Bindable]
+			private var bgcolor:uint = 0xFFFFFF;
+
+			[Bindable]
+			private var fgcolor:uint = 0x000000;
+
+			[Bindable]
+			private var fweight:String = "normal";
+
+			[Bindable]
+			private var fstyle:String = "normal";
+
+			[Bindable]
+			public var tooltipStr:String = "";
+
+			override public function set data(value:Object):void
+			{
+				super.data = value;
+
+				var tstr:String = "";
+				var p:Plot = data as Plot;
+				if (p!=null && p.sequence_order > 0)
+					tstr = "" + p.sequence_order;
+				tooltipStr = tstr;
+			}
+
+		]]>
+	</fx:Script>
+
+	<s:Label text="{data.plotid}" color="{fgcolor}"
+			 toolTip="{tooltipStr}"
+			 fontStyle="{fstyle}" fontWeight="{fweight}"
+			 paddingLeft="15" paddingTop="3" width="100%"/>
+
+</s:ItemRenderer>

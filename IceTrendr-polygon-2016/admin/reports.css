@@ -1,0 +1,42 @@
+body {font:normal 1em Arial; margin:10px}
+#frame {max-width:900px; margin:auto}
+table {font-size:.9em;
+    border-collapse:collapse;
+    width:100%;
+    }
+tbody {vertical-align:top;
+    border-bottom:1px solid #ccc;
+    }
+td {padding: 3px 10px;}
+.agree {color:#666}
+.disagree {color:#000; background:#ffc}
+h3 {font-size:1.2em; margin:20px 0 5px 0}
+
+.high, .medium, .low, .null {
+    display:inline;
+    font:bold .8em Arial;
+    padding: 1px 2px;
+    color:#fff;}
+.confidence .high {background-color:green;}
+.confidence .medium {background-color:orange}
+.confidence .low {background-color:red}
+.confidence .null {background-color:gray}
+
+
+fieldset {border:0;
+    font-size:0.9em;
+    border-top:1px solid #ccc}
+        
+legend{font-weight:bold;}
+label {display:inline-block;
+    width:280px;
+    margin:0} 
+legend label {display:inline;}
+
+input {padding:0; margin:0}
+
+fieldset.col {float:left;
+    width:45%;
+    padding:0 1%}
+fieldset.col label {width:100%; font-size:90%;}
+    

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Panel xmlns:fx="http://ns.adobe.com/mxml/2009"
+		 xmlns:s="library://ns.adobe.com/flex/spark"
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 xmlns:parsley="http://www.spicefactory.org/parsley"
+		 xmlns:components="org.larse.components.*"
+		 title="Polygon Attributes"
+		 creationComplete="initApp(event)"
+		 width="400" height="300">
+	<fx:Declarations>
+		<parsley:Configure/>
+	</fx:Declarations>
+
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			import mx.controls.Alert;
+			import mx.events.FlexEvent;
+
+			import org.larse.events.PlotEvent;
+			import org.larse.model.PlotModel;
+			import org.larse.tsclass.ChangeProcess;
+			import org.larse.tsclass.LtLuLc;
+
+			[Inject]
+			public var plotModel:PlotModel;
+
+			[Bindable]
+			public var likelyProcess:ChangeProcess;
+
+			[Bindable]
+			public var likelyStart:LtLuLc;
+
+			[Bindable]
+			public var likelyEnd:LtLuLc;
+
+
+			[Bindable]
+			public var possibleProcess:ChangeProcess;
+
+			[Bindable]
+			public var possibleStart:LtLuLc;
+
+			[Bindable]
+			public var possibleEnd:LtLuLc;
+
+			[MessageHandler(selector="plot_process_modified")]
+			public function onProcessModified(event:PlotEvent):void {
+				likelyProcess = plotModel.currentPlot.likelyProcess;
+				possibleProcess = plotModel.currentPlot.possibleProcess;
+			}
+
+			[MessageHandler(selector="plot_vertex_modified")]
+			public function onVertexModified(event:PlotEvent):void {
+				likelyStart = plotModel.currentPlot.likelyStart;
+				likelyEnd = plotModel.currentPlot.likelyEnd;
+				likely.startLu = likelyStart;
+				likely.endLu = likelyEnd;
+
+				possibleStart = plotModel.currentPlot.possibleStart;
+				possibleEnd = plotModel.currentPlot.possibleEnd;
+				possible.startLu = possibleStart;
+				possible.endLu = possibleEnd;
+			}
+
+			protected function initApp(event:FlexEvent):void {
+				// TODO Auto-generated method stub
+				likelyStart = new LtLuLc();
+				likelyStart.groups = 1;
+
+				likelyEnd = new LtLuLc("After");
+				likelyEnd.groups = 1;
+
+				possibleStart = new LtLuLc();
+				possibleStart.groups = 2;
+
+				possibleEnd = new LtLuLc("After");
+				possibleEnd.groups = 2;
+			}
+
+		]]>
+	</fx:Script>
+
+	<mx:TabNavigator left="5" right="5" top="5" bottom="5">
+		<s:NavigatorContent width="100%" height="100%" label="Most Likely">
+			<components:PatchAttributesGroup id="likely"
+											 x="10" y="10" width="291" height="222"
+											 changeProcess="@{likelyProcess}">
+			</components:PatchAttributesGroup>
+		</s:NavigatorContent>
+		<s:NavigatorContent width="100%" height="100%" label="Possible">
+			<components:PatchAttributesGroup id="possible"
+											 x="10" y="10" width="299"
+											 changeProcess="@{possibleProcess}">
+			</components:PatchAttributesGroup>
+		</s:NavigatorContent>
+		<s:NavigatorContent width="100%" height="100%" label="Comments">
+			<s:BorderContainer y="0" left="10" width="285" height="75" cornerRadius="8">
+				<s:HGroup paddingLeft="5" paddingTop="5" paddingRight="5" paddingBottom="5">
+					<s:VGroup>
+						<s:CheckBox label="Snow" selected="@{likelyProcess.isSnow}"/>
+						<s:CheckBox label="Phenology" selected="@{likelyProcess.isPhenology}"/>
+						<s:CheckBox label="Cloud/Shadow" selected="@{likelyProcess.isCloud}"/>
+					</s:VGroup>
+					<s:VGroup>
+						<s:CheckBox label="Misregistration" selected="@{likelyProcess.isMisregistration}"/>
+						<s:CheckBox label="Partial Patch" selected="@{likelyProcess.isPartialPatch}"/>
+						<s:CheckBox label="Wrong Detection Year" selected="@{likelyProcess.isWrongYear}"/>
+					</s:VGroup>
+				</s:HGroup>
+			</s:BorderContainer>
+			<s:RichEditableText left="10" right="10" top="94" bottom="10"
+								backgroundColor="0xdddddd"
+								text="@{likelyProcess.comments}"/>
+		</s:NavigatorContent>
+	</mx:TabNavigator>
+</s:Panel>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009"
+		 xmlns:s="library://ns.adobe.com/flex/spark"
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 creationComplete="initData(event)"
+		 width="400" height="300">
+	<fx:Declarations>
+	</fx:Declarations>
+
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			import mx.events.FlexEvent;
+
+			import org.larse.tsclass.LtLuLc;
+			import org.larse.tsclass.TsLuLc;
+
+			import spark.events.IndexChangeEvent;
+
+			private var lus:Array = [
+					"Glacier ice, bare ice",
+					"Glacier ice, firn",
+					"Glacier ice, snow-covered",
+					"Glacier ice, debris-covered",
+					"Glacier ice, crevassed",
+					"Glacier ice, other",
+					"Iceberg",
+					"Snow, seasonal snow",
+					"Snow, permanent snowfield",
+					"Moraine, terminal",
+					"Moraine, lateral",
+					"Moraine, medial",
+					"Rock, nunatak",
+					"Rock, horn",
+					"Rock, other",
+					"Water, supraglacial melt pond or lake",
+					"Water, supraglacier stream",
+					"Water, proglacial lake, high turbidity",
+					"Water, proglacial lake, low turbidity",
+					"Water, proglacial braided channels",
+					"Water, other",
+					"Vegetation, shrub",
+					"Vegetation, trees",
+					"Vegetation, other"];
+
+			[Bindable]
+			public var land_covers:ArrayCollection;
+
+			protected function initData(event:FlexEvent):void
+			{
+				land_covers = new ArrayCollection();
+				for each (var s:String in lus) {
+					land_covers.addItem(new TsLuLc(s));
+				}
+			}
+
+			protected function onDominantChange(event:IndexChangeEvent):void
+			{
+				for each (var o:TsLuLc in land_covers) {
+					if (o == dominant.selectedItem) {
+						o.isDominant = true;
+						o.isSelected = false;
+					}
+					else {
+						o.isDominant = false;
+					}
+				}
+			}
+
+
+			private var _endLulc:LtLuLc = null;
+			[Bindable]
+			public function get endLulc():LtLuLc {
+				if (_endLulc!=null){
+					_endLulc.endDominantLandCover = dominantLandCover;
+					_endLulc.endOtherLandCover = otherLandCover;
+				}
+				return _endLulc;
+			}
+
+			public function set endLulc(value:LtLuLc):void {
+				_endLulc = value;
+				if (value == null)
+					return;
+
+				for each (var o:TsLuLc in land_covers) {
+					if (o.label ==value.endDominantLandCover) {
+						dominant.selectedItem = o;
+						break;
+					}
+				}
+
+				otherLandCover = value.endOtherLandCover;
+
+			}
+
+			public function get dominantLandCover():String {
+				var dlc:String = "";
+				if (dominant.selectedItem!=null)
+					dlc = dominant.selectedItem.label;
+				return dlc;
+			}
+
+			public function get otherLandCover():String {
+				var olu:String = "";
+				var cnt:int = 0;
+				for each (var lu:TsLuLc in land_covers) {
+					if (lu.isSelected) {
+						if (cnt++ > 0)
+							olu += lu.label;
+						else
+							olu += lu.label+",";
+					}
+				}
+				return olu;
+			}
+			public function set otherLandCover(value:String):void {
+				if (value==null || value.length==0)
+					return;
+
+				//clearOtherLandUse();
+				for each (var s:String in value.split(",")) {
+					for each (var lu:TsLuLc in land_covers) {
+						if (s == lu.label) {
+							lu.isSelected = true;
+							break;
+						}
+					}
+				}
+			}
+
+			protected function onLcEdit(event:MouseEvent):void {
+				if (popup.displayPopUp) {
+					trace("about to hide popup");
+					if (_endLulc!=null){
+						_endLulc.endDominantLandCover = dominantLandCover;
+						_endLulc.endOtherLandCover = otherLandCover;
+					}
+				}
+				else { //about to show the data
+					if (_endLulc != null) {
+						for each (var o:TsLuLc in land_covers) {
+							if (o.label == _endLulc.endDominantLandCover) {
+								dominant.selectedItem = o;
+								break;
+							}
+						}
+
+						otherLandCover = _endLulc.otherLandCover;
+					}
+				}
+				popup.displayPopUp = !popup.displayPopUp;
+			}
+
+		]]>
+	</fx:Script>
+
+
+	<s:VGroup>
+		<s:TextInput id="dominantLc" editable="false" width="125" text="{dominant.selectedItem.label}" click="onLcEdit(event)"/>
+		<s:PopUpAnchor id="popup">
+			<s:BorderContainer>
+				<s:VGroup>
+					<s:VGroup left="5" right="5" top="5"
+							  paddingBottom="5" paddingLeft="5"
+							  paddingRight="5" paddingTop="5">
+						<s:Label fontWeight="bold"
+								 paddingTop="4"
+								 text="Dominant Land Cover"/>
+						<s:DropDownList id="dominant" width="175"
+										dataProvider="{land_covers}"
+										change="onDominantChange(event)"/>
+					</s:VGroup>
+					<s:VGroup width="100%" paddingBottom="5" paddingLeft="5"
+							  paddingRight="5" paddingTop="5"
+							  enabled="{dominant.selectedIndex>=0}">
+						<s:Label fontWeight="bold" text="Other Land Cover"/>
+						<s:List id="other" width="100%" height="142"
+								dataProvider="{land_covers}"
+								itemRenderer="org.larse.renderer.CheckBoxListRenderer"/>
+					</s:VGroup>
+				</s:VGroup>
+			</s:BorderContainer>
+		</s:PopUpAnchor>
+	</s:VGroup>
+</s:Group>

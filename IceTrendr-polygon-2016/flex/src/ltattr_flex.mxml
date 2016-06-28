@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark"
+			   xmlns:mx="library://ns.adobe.com/flex/mx"
+			   xmlns:parsley="http://www.spicefactory.org/parsley"
+			   xmlns:components="org.larse.components.*"
+			   creationComplete="initApp(event)"
+			   minWidth="100" minHeight="100"
+			   width="1280" height="1024"
+			   currentState="login">
+
+	<s:states>
+		<s:State name="App" enterState="initMenu(event)"/>
+		<s:State name="login"/>
+	</s:states>
+
+	<fx:Declarations>
+		<parsley:Configure/>
+		<parsley:ContextBuilder>
+			<parsley:FlexConfig type="{LtAttrContext}"/>
+			<parsley:RuntimeConfig instances="{[service]}"/>
+		</parsley:ContextBuilder>
+	</fx:Declarations>
+
+	<fx:Metadata>
+		[Event(name="get_lookup",type="org.larse.events.LookupEvent")]
+		[Event(name="get_all_plots", type="org.larse.events.PlotEvent")]
+		[Event(name="get_image_list",type="org.larse.events.ImageListEvent")]
+		[Event(name="get_plot_spectrals",type="org.larse.events.PlotEvent")]
+		[Event(name="plot_spectral_loaded",type="org.larse.events.PlotEvent")]
+		[Event(name="load_vertices", type="org.larse.events.PlotEvent")]
+		[Event(name="load_process", type="org.larse.events.PlotEvent")]
+		[Event(name="get_user_assignments",type="org.larse.events.ProjectEvent")]
+		[Event(name="login",type="org.larse.events.UserEvent")]
+		[ManagedEvents("login,load_process,get_user_assignments,load_vertices,plot_spectral_loaded,get_plot_spectrals,get_image_list,get_all_plots,get_lookup")]
+	</fx:Metadata>
+
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			import mx.controls.Alert;
+			import mx.events.FlexEvent;
+			import mx.events.MenuEvent;
+
+			import org.larse.events.ImageListEvent;
+			import org.larse.events.LandtrendrEvent;
+			import org.larse.events.LookupEvent;
+			import org.larse.events.PlotEvent;
+			import org.larse.events.ProjectEvent;
+			import org.larse.events.UserEvent;
+			import org.larse.model.GlobalModel;
+			import org.larse.model.ImageListModel;
+			import org.larse.model.PlotModel;
+			import org.larse.services.LandtrendrService;
+			import org.larse.tsclass.ImageChip;
+			import org.larse.vos.ImageEntry;
+			import org.larse.vos.LandtrendrTask;
+			import org.larse.vos.Plot;
+
+			import spark.events.IndexChangeEvent;
+
+			private var storage:String = "storages/";
+			private var db:String = "ts";
+			private var db_suffix:String = "_data/";
+
+			private var gateway:String = "gateway.php";
+			private var server:String = "localhost";
+
+			[Bindable]
+			public var service:LandtrendrService;
+
+			[Inject]
+			public var imageListModel:ImageListModel;
+
+			[Inject]
+			public var global:GlobalModel;
+
+			[Inject]
+			public var plotModel:PlotModel;
+
+			protected function initApp(event:FlexEvent):void {
+				service = new LandtrendrService();
+				service.endpoint = gateway;
+				service.server = server;
+
+				this.addEventListener(KeyboardEvent.KEY_DOWN, onKeyDown);
+			}
+
+			private function onKeyDown(event:KeyboardEvent):void {
+				if (event.charCode == 13)
+					doLogin();
+			}
+
+			private function doLogin():void {
+				if (txtUser.text.length > 0 && txtPass.text.length > 0) {
+					var uevent:UserEvent = new UserEvent(UserEvent.LOGIN, true, true);
+					uevent.usr = {user_name:txtUser.text, pass:txtPass.text};
+					dispatchEvent(uevent);
+				}
+			}
+
+			protected function login(event:MouseEvent):void
+			{
+				doLogin();
+			}
+
+			protected function onLogout(event:MouseEvent):void {
+				txtPass.text="";
+				ExternalInterface.call("showGMap()");
+				this.currentState = "login";
+			}
+
+			//load look up table
+			private function prepare():void {
+				var le:LookupEvent;
+
+				//get land cover lookup
+				le = new LookupEvent(LookupEvent.LOOKUP_GET_ALL, LookupEvent.LANDCOVER);
+				this.dispatchEvent(le);
+
+				//get land use lookup
+				le = new LookupEvent(LookupEvent.LOOKUP_GET_ALL, LookupEvent.LANDUSE);
+				this.dispatchEvent(le);
+
+				//get process lookup
+				le = new LookupEvent(LookupEvent.LOOKUP_GET_ALL, LookupEvent.PROCESSES);
+				dispatchEvent(le);
+			}
+
+			protected function initMenu(event:FlexEvent):void
+			{
+				ExternalInterface.call("showGMap()");
+				prepare();
+				//loadPlot();
+				//loadImageList();
+			}
+
+			private function loadPlot():void {
+				trace("load user assignment");
+				var pevent:ProjectEvent = new ProjectEvent(ProjectEvent.GET_ASSIGNMENT);
+				dispatchEvent(pevent);
+			}
+
+			private function loadImageList():void {
+				trace("load image list");
+				var ievent:ImageListEvent = new ImageListEvent(ImageListEvent.IMAGE_LIST_GET);
+				dispatchEvent(ievent);
+			}
+
+			private function buildChipList(cplot:Plot):void  {
+				ExternalInterface.call("loadPlotMap", cplot.lat, cplot.lng);
+
+				chipPanel.title = "Plot: " + cplot.plotid + ",   Lat: " + cplot.lat + ",   Lon: " + cplot.lng + ",   Change Year: " + cplot.dist_year;
+
+				var chips:ArrayCollection = new ArrayCollection();
+				var seq:int = 1;
+				for each (var iml:ImageEntry in imageListModel.imageList) {
+					var chip:ImageChip = new ImageChip();
+					chip.plotid = cplot.plotid;
+					chip.year = iml.year;
+					chip.julday = iml.julday;
+
+					var filename:String = "plot_"+ cplot.plotid + "/tsa_" + cplot.tsa + "_plot_" + cplot.plotid + "_" + chip.year +"-" + chip.julday + ".png";
+					chip.chipUrl = service.server + storage + "prj_" + global.project_id + "/ts_" + cplot.tsa +"/" + filename + "?ts=" + new Date().time;
+
+					chip.sequence = seq++;
+					chips.addItem(chip);
+				}
+
+				chipPanel.chips = chips;
+			}
+
+			[MessageHandler(selector="assignment_changed")]
+			public function onAssignmentChanged(event:ProjectEvent):void {
+				var arr:ArrayCollection = getUniqueProjects(global.assignments);
+				dropdownProject.dataProvider = arr;
+			}
+
+			[MessageHandler(selector="login_successful")]
+			public function onLogin(event:LandtrendrEvent):void {
+				loadPlot();
+				this.currentState = "App";
+			}
+
+			[MessageHandler(selector="plot_spectral_loaded")]
+			public function plotTrajectory(event:PlotEvent):void {
+				trajectory.setPlotSpectrals(plotModel.currentPlot.plotSpectrals);
+			}
+
+			[MessageHandler(selector="plot_selection_changed")]
+			public function LoadImageChip():void {
+				var cplot:Plot = plotModel.currentPlot;
+
+				if (cplot==null) return;
+
+				buildChipList(cplot);
+
+				//if spectral has not been loaded for this plot
+				if (!(cplot.isSpectralLoaded))
+					this.dispatchEvent(new PlotEvent(PlotEvent.PLOT_SPECTRAL_GET, cplot));
+				else
+					this.dispatchEvent(new PlotEvent(PlotEvent.PLOT_SPECTRAL_LOADED));
+
+				//Now load vertex, and process
+				//if vertex has not been loaded
+				if (!cplot.isVertexLoaded) {
+					this.dispatchEvent(new PlotEvent(PlotEvent.LOAD_VERTEX, cplot));
+				}
+				else {
+					plotModel.plotModified(PlotEvent.PLOT_VERTEX_MODIFIED);
+				}
+
+				if (!cplot.isProcessLoaded) {
+					this.dispatchEvent(new PlotEvent(PlotEvent.LOAD_PROCESS, cplot));
+				}
+				else {
+					plotModel.plotModified(PlotEvent.PLOT_PROCESS_MODIFIED);
+				}
+
+
+				trajectory.resetScale();
+			}
+
+			protected function onProjectChanged(event:IndexChangeEvent):void
+			{
+				var tst:LandtrendrTask = dropdownProject.selectedItem as LandtrendrTask;
+				if (tst != null) {
+					var arr:ArrayCollection = getProjectTsas(global.assignments, tst.project_id);
+					dropdownScenes.dataProvider = arr;
+					global.project_id = tst.project_id;
+
+					ExternalInterface.call("loadProjectKml", tst.project_code);
+				}
+
+			}
+
+			//get unique projects
+			private function getUniqueProjects(tasks:ArrayCollection):ArrayCollection {
+				var len:Number = tasks.length;
+				var dic:Dictionary = new Dictionary();
+				for each (var tst:LandtrendrTask in tasks) {
+					dic[tst.project_id] = tst;
+				}
+				var unique:ArrayCollection = new ArrayCollection();
+				for each (var utst:LandtrendrTask in dic) {
+					unique.addItem(utst);
+				}
+				return unique;
+			}
+
+			//get the tsa associated with a project
+			//TODO: alternatively this can be achieved with a new dcd call
+			private function getProjectTsas(tasks:ArrayCollection, project_id:int):ArrayCollection {
+				var len:Number = tasks.length;
+				var dic:Dictionary = new Dictionary();
+				for each (var tst:LandtrendrTask in tasks) {
+					if (tst.project_id == project_id)
+						dic[tst.tsa] = tst.tsa;
+				}
+				var unique:ArrayCollection = new ArrayCollection();
+				for each (var tsa:int in dic) {
+					unique.addItem(tsa);
+				}
+				return unique;
+			}
+
+			protected function onSceneSelected(event:IndexChangeEvent):void
+			{
+				// TODO Auto-generated method stub
+				var tsa:Number = dropdownScenes.selectedItem as Number;
+				global.tsa = tsa;
+
+				var cevent:PlotEvent = new PlotEvent(PlotEvent.PLOT_GET_ALL);
+				dispatchEvent(cevent);
+
+				var ievent:ImageListEvent = new ImageListEvent(ImageListEvent.IMAGE_LIST_GET);
+				dispatchEvent(ievent);
+			}
+
+			protected function gotoHelp(event:MouseEvent):void
+			{
+				navigateToURL(new URLRequest("definition_v1.1.pdf"), "_blank");
+			}
+			
+			protected function mmenu_itemClickHandler(event:MenuEvent):void
+			{
+				// TODO Auto-generated method stub
+				if (event.label == "About/FAQs") {
+					navigateToURL(new URLRequest("About_IceTrendr_Polygon.pdf"), "_blank");
+				}
+				else if (event.label == "Instructions") {
+					navigateToURL(new URLRequest("Instructions_IceTrendr_Polygon.pdf"), "_blank");
+				}
+				else if (event.label == "Land Cover") {
+					navigateToURL(new URLRequest("LandCover_IceTrendr_Polygon.pdf"), "_blank");
+				}
+				else if (event.label == "Processes") {
+					navigateToURL(new URLRequest("Processes_IceTrendr_Polygon.pdf"), "_blank");
+				}
+				else if (event.label == "Day of Year") {
+					navigateToURL(new URLRequest("Day_of_Year_Lookup.pdf"), "_blank");
+				}
+			}
+
+			protected function onSave(event:MouseEvent):void
+			{
+				saveInterpretations(plotModel.currentPlot);
+			}
+
+			[MessageHandler(selector="save_plot")]
+			public function savePlot(event:PlotEvent):void {
+				saveInterpretations(event.CurrentPlot);
+			}
+
+			private function saveInterpretations(plot:Plot):void {
+				//disable saving for attruser
+				if (global.interpreter.user_id < 0)
+					return;
+
+				var procsql:String = "";
+				var lulcsql:String = "";
+
+				//when there is proces interpretation
+				if (plot.likelyProcess.changeProcess!=null && plot.likelyProcess.changeProcess.length>0) {
+					plot.likelyProcess.groups = 1;
+					plot.likelyProcess.interpreter = global.interpreter.user_id;
+					procsql += "("+plot.likelyProcess.values + ")";
+
+					// if there is land function interpretation
+					if (plot.likelyStart.dominantLandUse.length > 0 && plot.likelyStart.dominantLandCover.length > 0) {
+						plot.likelyStart.groups = 1;
+						plot.likelyStart.interpreter = global.interpreter.user_id;
+						lulcsql += "(" + plot.likelyStart.values + ")";
+
+						if (plot.likelyEnd.dominantLandUse.length > 0 && plot.likelyEnd.dominantLandCover.length > 0) {
+							plot.likelyEnd.groups = 1;
+							plot.likelyEnd.interpreter = global.interpreter.user_id;
+							lulcsql += ",(" + plot.likelyEnd.values + ")";
+						}
+					}
+
+					//if there is second interpretation
+					if (plot.possibleProcess.changeProcess!=null && plot.possibleProcess.changeProcess.length>0) {
+						plot.possibleProcess.groups = 2;
+						plot.possibleProcess.interpreter = global.interpreter.user_id;
+						procsql += ",(" + plot.possibleProcess.values + ")";
+
+						// if there is land function interpretation
+						if (plot.possibleStart.dominantLandUse.length > 0 && plot.possibleStart.dominantLandCover.length > 0) {
+							plot.possibleStart.groups = 2;
+							plot.possibleStart.interpreter = global.interpreter.user_id;
+							lulcsql += "(" + plot.likelyStart.values + ")";
+
+							if (plot.possibleEnd.dominantLandUse.length > 0 && plot.possibleEnd.dominantLandCover.length > 0) {
+								plot.possibleEnd.groups = 2;
+								plot.possibleEnd.interpreter = global.interpreter.user_id;
+								lulcsql += ",(" + plot.possibleEnd.values + ")";
+							}
+						}
+					}
+
+
+				}
+
+				try {
+					if (procsql.length > 10)
+						service.updatePlotProcess(global.project_id, global.tsa, plot.plotid, global.interpreter.user_id, procsql);
+
+					if (lulcsql.length > 10)
+						service.updatePlotVertex(global.project_id, global.tsa, plot.plotid, global.interpreter.user_id, lulcsql);
+				}
+				catch (e:*) {
+					Alert.show(e.toString());
+				}
+			}
+
+			protected function toggleFullScreen(event:MouseEvent):void {
+				if (this.stage.displayState == StageDisplayState.NORMAL) {
+					this.stage.displayState = StageDisplayState.FULL_SCREEN;
+				}
+				else {
+					this.stage.displayState = StageDisplayState.NORMAL;
+				}
+
+			}
+
+		]]>
+	</fx:Script>
+
+	<s:VGroup width="100%" height="100%"  includeIn="App">
+		<mx:ControlBar width="100%" height="35">
+			<s:HGroup verticalAlign="middle">
+				<s:Label fontSize="18" fontWeight="bold"
+						 doubleClickEnabled="true"
+						 doubleClick="toggleFullScreen(event)"
+						 text="IceTrendr Polygon - v1.0"/>
+				<!--
+				<s:Spacer width="35"/>
+				<s:HGroup>
+				<s:Label text="Chip Size"/>
+				<s:HSlider id="slider" minimum="50" maximum="255" value="255"  change="slider_changeHandler(event)"/>
+				</s:HGroup>
+				-->
+				<s:Spacer width="100"/>
+				<s:Button label="Save Interpretation" click="onSave(event)"/>
+				<s:Spacer width="30"/>
+				<s:Button label="Logout" click="onLogout(event)"/>
+				<s:Spacer width="150"/>
+				<s:Label text="Glacier:"/>
+				<s:DropDownList id="dropdownProject" width="175"
+								labelField="project_code"
+								change="onProjectChanged(event)" />
+				<s:Spacer width="10"/>
+				<s:Label text="Scene:"/>
+				<s:DropDownList id="dropdownScenes" change="onSceneSelected(event)"/>
+				<s:Spacer width="20"/>
+				<!--
+				<s:Button label="Help" click="gotoHelp(event)"/>
+				-->
+				<mx:MenuBar id="mmenu" labelField="@label" itemClick="mmenu_itemClickHandler(event)">
+					<fx:XMLList>
+						<menuitem label="Help">
+							<menuitem label="About/FAQs"/>
+							<menuitem label="Instructions"/>
+							<menuitem label="Land Cover"/>
+							<menuitem label="Processes"/>
+							<menuitem label="Day of Year"/>
+						</menuitem>
+					</fx:XMLList>
+				</mx:MenuBar>				<s:Spacer width="10"/>
+				<!--
+				<s:ToggleButton label="Google Earth" click="showMap(event)"/>
+				-->
+			</s:HGroup>
+		</mx:ControlBar>
+
+		<s:HGroup width="100%" height="100%">
+			<components:PlotPanel width="85" height="100%"/>
+			<s:VGroup width="100%" height="100%">
+				<s:HGroup width="100%">
+					<s:Panel title="Google" width="680" height="600"/>
+					<s:VGroup width="100%">
+						<components:TrajectoryPanel id="trajectory" width="100%" height="275"/>
+						<components:AttributePanel id="attr" width="100%" height="320"/>
+					</s:VGroup>
+				</s:HGroup>
+				<components:ChipPanel id="chipPanel" width="100%" height="100%"/>
+			</s:VGroup>
+		</s:HGroup>
+	</s:VGroup>
+	<s:Panel title="IceTrendr - Polygon Login" includeIn="login" width="304" height="256" horizontalCenter="-39" verticalCenter="-36">
+		<s:VGroup x="0" y="0" width="100%" height="100%" paddingLeft="50" paddingTop="25">
+			<s:Label text="User Name"/>
+			<s:TextInput id="txtUser" width="209"/>
+			<s:Label paddingTop="15" text="Password"/>
+			<s:TextInput id="txtPass" width="208" displayAsPassword="true"/>
+			<s:Spacer height="25"/>
+			<s:Button label="Login" click="login(event)"/>
+			<s:Label id="message" text=""/>
+		</s:VGroup>
+	</s:Panel>
+</s:Application>

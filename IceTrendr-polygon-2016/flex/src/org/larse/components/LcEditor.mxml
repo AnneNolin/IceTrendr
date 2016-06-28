@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:ComboBoxGridItemEditor xmlns:fx="http://ns.adobe.com/mxml/2009"
+						  xmlns:s="library://ns.adobe.com/flex/spark"
+						  xmlns:mx="library://ns.adobe.com/flex/mx"
+						  creationComplete="onCreationComplete(event)"
+						  width="400" height="300">
+	<fx:Declarations>
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			import mx.events.FlexEvent;
+
+			private var lcs:Array = [
+					"Glacier ice, bare ice",
+					"Glacier ice, firn",
+					"Glacier ice, snow-covered",
+					"Glacier ice, debris-covered",
+					"Glacier ice, crevassed",
+					"Glacier ice, other",
+					"Iceberg",
+					"Snow, seasonal snow",
+					"Snow, permanent snowfield",
+					"Moraine, terminal",
+					"Moraine, lateral",
+					"Moraine, medial",
+					"Rock, nunatak",
+					"Rock, horn",
+					"Rock, other",
+					"Water, supraglacial melt pond or lake",
+					"Water, supraglacier stream",
+					"Water, proglacial lake, high turbidity",
+					"Water, proglacial lake, low turbidity",
+					"Water, proglacial braided channels",
+					"Water, other",
+					"Vegetation, shrub",
+					"Vegetation, trees",
+					"Vegetation, other"];
+
+			protected function onCreationComplete(event:FlexEvent):void
+			{
+				this.comboBox.textInput.editable = false;
+				this.dataProvider = new ArrayCollection(lcs);
+			}
+		]]>
+	</fx:Script>
+</s:ComboBoxGridItemEditor>

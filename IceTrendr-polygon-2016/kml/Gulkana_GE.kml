@@ -1,0 +1,1469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>prj212_polygon_Gulkana_GE</name>
+	<open>1</open>
+	<Document>
+		<name>Gulkana_IceTrendr_polygons_GE.kml</name>
+		<StyleMap id="PolyStyle400">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#PolyStyle40</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#PolyStyle401</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="PolyStyle401">
+			<LabelStyle>
+				<color>00000000</color>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Style id="PolyStyle40">
+			<LabelStyle>
+				<color>00000000</color>
+				<scale>0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<Folder id="FeatureLayer5">
+			<name>Gulkana1_labels_GE</name>
+			<open>1</open>
+			<Snippet maxLines="0"></Snippet>
+			<Placemark id="ID_50000">
+				<name>121</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>121</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>121</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4809742409468,63.29264071515878,0 -145.4817406387695,63.29345639105617,0 -145.4826316046509,63.29314454786005,0 -145.482887078185,63.29341643861433,0 -145.4833325589345,63.2932605142713,0 -145.4825661413131,63.29244484896725,0 -145.482120664768,63.29260076892227,0 -145.4818651984191,63.29232888073868,0 -145.4809742409468,63.29264071515878,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50001">
+				<name>401</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>401</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>401</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.458990996794,63.2887721976164,0 -145.459246340252,63.28904410663039,0 -145.4588008271541,63.28919995071603,0 -145.4593115184474,63.28974377423899,0 -145.4599471982102,63.28916017009841,0 -145.4594365060952,63.28861635413697,0 -145.458990996794,63.2887721976164,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50002">
+				<name>466</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>466</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>466</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4488037669118,63.29052920911577,0 -145.4488688208042,63.29122889902379,0 -145.4497599291448,63.29091725592149,0 -145.449249317079,63.29037339006035,0 -145.4488037669118,63.29052920911577,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50003">
+				<name>593</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>593</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>593</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4636846650149,63.27990608608673,0 -145.462348364865,63.28037358017974,0 -145.4633044502859,63.28076147584485,0 -145.4637498864729,63.28060564155869,0 -145.4645158830962,63.28142123285499,0 -145.4651514192954,63.28083769125108,0 -145.4656620964988,63.28138141550519,0 -145.4661075311122,63.28122557280862,0 -145.4663628747061,63.28149743475827,0 -145.465917438691,63.28165327891596,0 -145.4661727832769,63.28192514318256,0 -145.4673190054999,63.28188531328966,0 -145.4675743576767,63.28215717634564,0 -145.4680197931095,63.2820013260937,0 -145.4682751490818,63.28227318854431,0 -145.4691660155693,63.28196148255197,0 -145.4682098711684,63.28157361485275,0 -145.467764439531,63.28172946449888,0 -145.4676991683893,63.28102989715266,0 -145.4668083083275,63.28134158974516,0 -145.4667430491542,63.28064202667719,0 -145.4671884751849,63.28048618287532,0 -145.4666777915551,63.2799424720204,0 -145.4655316072854,63.27998229585904,0 -145.4660422805214,63.28052601084647,0 -145.4655968511052,63.2806818514765,0 -145.4646407516662,63.28029397041986,0 -145.4641953202663,63.28044980641707,0 -145.4636846650149,63.27990608608673,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50004">
+				<name>927</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>927</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>927</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4200064281196,63.28506640648946,0 -145.4202615724959,63.28533836202293,0 -145.4198159831577,63.28549408459485,0 -145.4208365789726,63.28658192114961,0 -145.4203909816246,63.28673764870787,0 -145.4206461351559,63.28700961145207,0 -145.4197549304731,63.28732106691982,0 -145.4200100835884,63.28759303344392,0 -145.4211564493968,63.28755353951458,0 -145.4209012910799,63.28728157505434,0 -145.4213468912365,63.28712584457433,0 -145.4218572130716,63.28766977143091,0 -145.4214116101065,63.28782550483281,0 -145.4216667732091,63.28809747100915,0 -145.4221123775785,63.28794173614627,0 -145.4223675444782,63.28821370171961,0 -145.4228131478589,63.2880579645389,0 -145.4223028136438,63.28751403717222,0 -145.4231940076096,63.28720256608469,0 -145.4241499436436,63.28759074785646,0 -145.4245955374526,63.28743500724891,0 -145.4248507137663,63.28770696637511,0 -145.4254867178918,63.28712352346383,0 -145.4257418970137,63.28739547966797,0 -145.4251058924729,63.28797892635924,0 -145.4253610735726,63.28825088720132,0 -145.4268882550121,63.28735594367424,0 -145.4266330706892,63.28708398953429,0 -145.4261874850479,63.28723973502942,0 -145.4254219506489,63.28642387337343,0 -145.4258675320781,63.28626813226114,0 -145.4256123573269,63.28599618155224,0 -145.4242756100728,63.28646339793634,0 -145.4237652761731,63.28591949032646,0 -145.4242108581759,63.28576375531011,0 -145.4239556934112,63.28549180425254,0 -145.4210270199808,63.28615423376996,0 -145.4207718684264,63.28588227566316,0 -145.4225542130863,63.2852593651217,0 -145.4228093702573,63.28553131738542,0 -145.4232549518446,63.28537558614741,0 -145.4227446370871,63.28483168539903,0 -145.4222990583079,63.28498741371559,0 -145.4220439059223,63.28471546316717,0 -145.4211527439944,63.28502691430866,0 -145.4208975968096,63.28475496169651,0 -145.4200064281196,63.28506640648946,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50005">
+				<name>1010</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1010</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1010</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4267507894448,63.28090364662234,0 -145.4277714345398,63.28199135159527,0 -145.4282169756105,63.28183561566684,0 -145.4271963249009,63.28074791653538,0 -145.4267507894448,63.28090364662234,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50006">
+				<name>1022</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1022</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1022</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4652481465925,63.2670801285986,0 -145.4648028182902,63.26723593085139,0 -145.4653133724819,63.26777952880978,0 -145.4657587035864,63.26762372363808,0 -145.4652481465925,63.2670801285986,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50007">
+				<name>1213</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1213</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1213</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4676533249993,63.26082225968303,0 -145.4679085860286,63.26109402354854,0 -145.4674633108303,63.26124981735163,0 -145.4684843732653,63.26233688717807,0 -145.4680390900721,63.26249268596114,0 -145.4685496328411,63.26303622891031,0 -145.4681043444542,63.2631920297558,0 -145.4683596180263,63.2634638039691,0 -145.4679143258464,63.26361960541816,0 -145.4684248773658,63.26416315932251,0 -145.4679795799921,63.26431896283427,0 -145.4682348579394,63.26459074252554,0 -145.469125453096,63.26427913172822,0 -145.4696360217709,63.26482268783391,0 -145.470271324626,63.26423929221686,0 -145.4712271970957,63.26462703142195,0 -145.4716724881105,63.26447121779614,0 -145.4709066147012,63.26365589986799,0 -145.4700160386833,63.263967517509,0 -145.4697607551329,63.26369574365437,0 -145.4710966113694,63.26322832028707,0 -145.4708413260094,63.26295655166283,0 -145.4695054739749,63.26342397065287,0 -145.4689949188357,63.2628804272093,0 -145.4694402024381,63.26272462465283,0 -145.4696954802122,63.26299639448902,0 -145.4705860430416,63.26268478389162,0 -145.4698202084919,63.26186948569595,0 -145.4686743834687,63.2619093202624,0 -145.4684191152633,63.26163755383819,0 -145.469564935093,63.26159772133659,0 -145.4698202084919,63.26186948569595,0 -145.4707107533488,63.26155788043052,0 -145.47064546938,63.26085855740193,0 -145.4694996648944,63.26089839734804,0 -145.4692443972712,63.26062663700601,0 -145.4687991292491,63.26078243337571,0 -145.4685438654186,63.26051067242769,0 -145.4676533249993,63.26082225968303,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50008">
+				<name>1245</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1245</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1245</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4065639966484,63.28145823724942,0 -145.4056728016591,63.28176958229908,0 -145.4064379968393,63.2825854755305,0 -145.4051011737724,63.28305249981609,0 -145.4060569203141,63.28344076486204,0 -145.4075842729108,63.28254608492613,0 -145.4073292002572,63.28227412172042,0 -145.4068835997442,63.28242979905406,0 -145.4063734644226,63.28188587229561,0 -145.406819062126,63.28173019788209,0 -145.4065639966484,63.28145823724942,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50009">
+				<name>1300</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1300</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1300</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4311287907738,63.27106837255924,0 -145.4302378872772,63.27137980241792,0 -145.4322790113437,63.27355482324477,0 -145.4336153966732,63.27308764214606,0 -145.4345711698259,63.27347566548671,0 -145.4350166272322,63.27331993296521,0 -145.4347614665532,63.27304805795368,0 -145.436097820211,63.2725808596291,0 -145.4353323399002,63.27176525286318,0 -145.4330402500492,63.27184441949354,0 -145.4325299625926,63.27130067767311,0 -145.4313839257166,63.27134024424954,0 -145.4311287907738,63.27106837255924,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50010">
+				<name>1503</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1503</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1503</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4161655985516,63.27088247959856,0 -145.4171858688397,63.2719700660705,0 -145.418076851476,63.2716587077268,0 -145.4175020520745,63.27041545830579,0 -145.4168661508392,63.2709987005665,0 -145.4166110854505,63.27072680669135,0 -145.4161655985516,63.27088247959856,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50011">
+				<name>1519</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1519</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1519</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4145740661245,63.27107759432263,0 -145.4153392454453,63.27189329345618,0 -145.4147033062587,63.27247654173446,0 -145.4144482445101,63.27220463739312,0 -145.4140027404554,63.272360308076,0 -145.4140673542822,63.27305979327703,0 -145.4162948766376,63.2722814209862,0 -145.416039808286,63.27200952016614,0 -145.416485304179,63.27185384459591,0 -145.4162302368151,63.27158194609094,0 -145.4157847423259,63.27173762020206,0 -145.4150195587936,63.27092192544555,0 -145.4145740661245,63.27107759432263,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50012">
+				<name>1590</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1590</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1590</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4486749558089,63.25699070170479,0 -145.4491202487653,63.25683497304902,0 -145.4488650945093,63.25656319830981,0 -145.4479745090082,63.2568746518493,0 -145.4482296604614,63.25714642950445,0 -145.4486749558089,63.25699070170479,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50013">
+				<name>1591</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1591</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1591</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4368413832479,63.26076753210197,0 -145.4346145787634,63.26154604392221,0 -145.434679429071,63.26224539028389,0 -145.4342340558049,63.26240109213833,0 -145.434999397098,63.26321657276987,0 -145.4337280915573,63.26438305881577,0 -145.4350037040683,63.26574224800049,0 -145.4356393652989,63.26515898448845,0 -145.4353842376002,63.26488714871436,0 -145.4358296268684,63.26473143690517,0 -145.4355745001587,63.2644596034441,0 -145.4360198856331,63.26430389223704,0 -145.437295550108,63.26566306079288,0 -145.4368501576214,63.2658187792933,0 -145.4373604373469,63.26636245561415,0 -145.4369150396639,63.26651817617578,0 -145.4359593654738,63.26613021372482,0 -145.4355139658127,63.26628592965588,0 -145.4352588337447,63.26601408840089,0 -145.4339226246202,63.26648122667869,0 -145.4341777524803,63.26675307231002,0 -145.4332869316346,63.26706449646348,0 -145.4347528729987,63.26799618172321,0 -145.4356437002826,63.26768474418552,0 -145.4348782909703,63.26686920397569,0 -145.435323696817,63.26671348829877,0 -145.4362793763657,63.26710145854841,0 -145.4367247802344,63.26694573824083,0 -145.4377453667312,63.2680331162274,0 -145.4372999572524,63.26818884237083,0 -145.4375551084533,63.26846069046339,0 -145.4380005193347,63.26830496286089,0 -145.4382556743299,63.26857681034916,0 -145.437810262046,63.26873253941076,0 -145.4383205764067,63.26927623987014,0 -145.4392114041928,63.26896477505402,0 -145.4381907738184,63.26787738922755,0 -145.4386361785137,63.26772166137133,0 -145.438125874872,63.26717797650456,0 -145.4385712743708,63.26702225070988,0 -145.4380609774909,63.26647857217949,0 -145.4386966160465,63.26589528879083,0 -145.4379311874238,63.26507978872022,0 -145.4392673319784,63.26461262731796,0 -145.4390121896801,63.26434080004582,0 -145.4399029379546,63.26402935774633,0 -145.4398380226692,63.26332999208184,0 -145.4402833880234,63.26317427170829,0 -145.4400282472907,63.26290245283277,0 -145.4404736088514,63.26274673306137,0 -145.4397081967948,63.26193128593388,0 -145.4410442545099,63.2614641346072,0 -145.440789117734,63.26119232498078,0 -145.441679808117,63.26088088939785,0 -145.4414246709284,63.26060908354172,0 -145.4387525794969,63.26154337126422,0 -145.4384974531119,63.26127155751212,0 -145.4416148749317,63.26018156237967,0 -145.4413597411237,63.25990975968892,0 -145.440469063935,63.26022118823514,0 -145.4399588091001,63.25967757958152,0 -145.4368413832479,63.26076753210197,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+						<innerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4369106494077,63.2639924672534,0 -145.4373560277079,63.26383675347686,0 -145.4378662947378,63.26438040958453,0 -145.4374209136329,63.26453612627822,0 -145.4369106494077,63.2639924672534,0 
+								</coordinates>
+							</LinearRing>
+						</innerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50014">
+				<name>1615</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1615</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1615</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4395134697231,63.25983328965376,0 -145.4392583472943,63.25956148514913,0 -145.4383676641711,63.25987289980807,0 -145.4381125469375,63.25960109324084,0 -145.436331157607,63.26022390644882,0 -145.4368413832479,63.26076753210197,0 -145.4395134697231,63.25983328965376,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50015">
+				<name>1744</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1744</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1744</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4495605990539,63.25415396268488,0 -145.4500058678548,63.25399823909694,0 -145.4492404372472,63.25318296158138,0 -145.4498758177126,63.25259976603046,0 -145.4489202861599,63.25221197603784,0 -145.448284900335,63.25279516379946,0 -145.4485400352971,63.2530669218718,0 -145.4473943695732,63.2531065938311,0 -145.4476495017328,63.25337835481847,0 -145.4472042313644,63.25353407000749,0 -145.4474593645134,63.25380583330488,0 -145.4479046362831,63.25365011665825,0 -145.4484149125564,63.25419364289518,0 -145.447969637984,63.25434936245705,0 -145.4482247783056,63.25462112831185,0 -145.4491153278621,63.25430968541668,0 -145.4488601847378,63.2540379224772,0 -145.4493054545284,63.25388220120304,0 -145.4495605990539,63.25415396268488,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50016">
+				<name>1779</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1779</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1779</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4503811275186,63.25061814875905,0 -145.4506362627258,63.25088989322115,0 -145.451081503582,63.25073417530009,0 -145.4508263669737,63.25046243229529,0 -145.4503811275186,63.25061814875905,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50017">
+				<name>1802</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1802</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1802</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4543231232301,63.24851748837241,0 -145.4545782676649,63.24878921655895,0 -145.4550234818127,63.24863349299159,0 -145.4547683359772,63.24836176626218,0 -145.4543231232301,63.24851748837241,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50018">
+				<name>1803</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1803</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1803</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4480898937578,63.25069750802604,0 -145.4483450185793,63.25096925661327,0 -145.4487902661959,63.25081354503143,0 -145.4485351399733,63.25054179790146,0 -145.4480898937578,63.25069750802604,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50019">
+				<name>1824</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1824</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1824</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4569292609502,63.24688398220454,0 -145.4571844104083,63.24715569848893,0 -145.4580747972424,63.24684424434273,0 -145.4578196449833,63.24657253097226,0 -145.4569292609502,63.24688398220454,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50020">
+				<name>1851</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1851</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1851</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4287517567297,63.25781971839284,0 -145.4291971095337,63.25766404449588,0 -145.4302173916155,63.25875129806533,0 -145.4322538834703,63.25840038028144,0 -145.4314886443221,63.25758495375652,0 -145.4301525990115,63.2580519919042,0 -145.4298975282839,63.2577801803964,0 -145.4312335693874,63.25731314662195,0 -145.4297031699821,63.25568232173575,0 -145.428812495132,63.25599366095097,0 -145.4297679545205,63.25638159956877,0 -145.4282416328375,63.25727609381431,0 -145.4287517567297,63.25781971839284,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50021">
+				<name>1861</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1861</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1861</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4443376824513,63.25237062231892,0 -145.4440825702415,63.25209886061596,0 -145.4445278379724,63.25194315819778,0 -145.4440176179217,63.25139964026342,0 -145.4431270856751,63.25171103841431,0 -145.4428719820385,63.25143927781098,0 -145.4424267137308,63.25159497414468,0 -145.442681815966,63.2518667362052,0 -145.4422365438664,63.25202243313972,0 -145.4414712485369,63.2512071451433,0 -145.4410259782513,63.25136283684971,0 -145.441536169944,63.25190636424279,0 -145.4410908944649,63.25206205800726,0 -145.4418561957283,63.25287735986174,0 -145.4424916470906,63.25229419750991,0 -145.4430018607107,63.25283772880755,0 -145.4436373001201,63.25225456217782,0 -145.4438924109285,63.25252632533812,0 -145.4443376824513,63.25237062231892,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_50022">
+				<name>1882</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>1882</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>plotid</td>
+
+<td>1882</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle400</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-145.4387347022865,63.25144205946987,0 -145.4389897865503,63.25171382686425,0 -145.4434424634385,63.25015692009,0 -145.443697564108,63.2504286737652,0 -145.4445880736033,63.2501172792194,0 -145.4443329701312,63.24984552845843,0 -145.4447782198919,63.24968983135811,0 -145.4450333247653,63.249961580662,0 -145.4463690639087,63.24949447985201,0 -145.4454136069565,63.24910668905072,0 -145.4387347022865,63.25144205946987,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Document>
+	<NetworkLink>
+		<name>IceTrendr Sites GLIMS outlines (Network Link)</name>
+		<Link>
+			<href>http://polygon.icetrendr.oregonstate.edu/kml/GLIMS_outlines_IceTrendrSites_GLIMS_GE.kml</href>
+		</Link>
+	</NetworkLink>
+</Folder>
+</kml>
