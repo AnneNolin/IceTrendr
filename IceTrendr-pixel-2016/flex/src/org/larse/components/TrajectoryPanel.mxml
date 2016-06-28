@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Panel xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx" 
+		 xmlns:parsley="http://www.spicefactory.org/parsley"
+		 xmlns:components="org.larse.components.*"
+		 mouseEnabled="true"
+		 skinClass="org.larse.skin.TrajectoryPanelSkin"
+		 creationComplete="initGraph(event)"
+		 width="400" height="300">
+	<fx:Declarations>
+		<parsley:Configure/>
+	</fx:Declarations>
+	
+	<fx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			import mx.events.FlexEvent;
+			
+			import org.larse.model.GlobalModel;
+			import org.larse.vos.SpectralProperty;
+
+//			[Inject][Bindable]
+//			private var spectralProperty:SpectralProperty;
+			
+			[Inject][Bindable]
+			public var global:GlobalModel; 
+			
+			private var wetness:TrajectoryChart;
+			private var ndsi:TrajectoryChart;
+			private var ndvi:TrajectoryChart;
+			private var brightness:TrajectoryChart;
+			private var greenness:TrajectoryChart;
+			private var b3b5:TrajectoryChart;
+			private var b1:TrajectoryChart;
+			private var b2:TrajectoryChart;
+			private var b3:TrajectoryChart;
+			private var b4:TrajectoryChart;
+			private var b5:TrajectoryChart;
+			private var b7:TrajectoryChart;
+			private var doy:TrajectoryChart;
+			private var turb:TrajectoryChart;
+			
+
+			[Bindable]
+			public function get overlaySegment():Boolean {
+				return global.overlaySegment;
+			}
+			
+			public function set overlaySegment(value:Boolean):void {
+				global.overlaySegment = value;
+				resetScale("");
+			}
+			
+			/**
+			 * clear what's drawn on the trajectory window
+			 * 
+			 */
+			public function clearTrajectory():void {
+				setPlotSpectrals(new ArrayCollection(), new ArrayCollection());
+			}
+			
+			public function setPlotSpectrals(plotSpectrals:ArrayCollection, vertexSpectrals:ArrayCollection):void {
+				wetness.spectralIndex = "wetness";
+				wetness.plotSpectrals = plotSpectrals;
+				wetness.vertexSpectrals = vertexSpectrals;
+
+				ndsi.spectralIndex = "ndsi";
+				ndsi.plotSpectrals = plotSpectrals;
+				ndsi.vertexSpectrals = vertexSpectrals;
+				
+				ndvi.spectralIndex = "ndvi";
+				ndvi.plotSpectrals = plotSpectrals;
+				ndvi.vertexSpectrals = vertexSpectrals;
+				
+				brightness.spectralIndex = "brightness";
+				brightness.plotSpectrals = plotSpectrals;
+				brightness.vertexSpectrals = vertexSpectrals;
+				
+				greenness.spectralIndex = "greenness";
+				greenness.plotSpectrals = plotSpectrals;
+				greenness.vertexSpectrals = vertexSpectrals;	
+
+				b3b5.spectralIndex = "b3b5";
+				b3b5.plotSpectrals = plotSpectrals;
+				b3b5.vertexSpectrals = vertexSpectrals;
+
+				b1.spectralIndex = "b1";
+				b1.plotSpectrals = plotSpectrals;
+				b1.vertexSpectrals = vertexSpectrals;
+
+				b2.spectralIndex = "b2";
+				b2.plotSpectrals = plotSpectrals;
+				b2.vertexSpectrals = vertexSpectrals;
+				
+				b3.spectralIndex = "b3";
+				b3.plotSpectrals = plotSpectrals;
+				b3.vertexSpectrals = vertexSpectrals;	
+				
+				b4.spectralIndex = "b4";
+				b4.plotSpectrals = plotSpectrals;
+				b4.vertexSpectrals = vertexSpectrals;	
+				
+				b5.spectralIndex = "b5";
+				b5.plotSpectrals = plotSpectrals;
+				b5.vertexSpectrals = vertexSpectrals;	
+
+				b7.spectralIndex = "b7";
+				b7.plotSpectrals = plotSpectrals;
+				b7.vertexSpectrals = vertexSpectrals;	
+				
+				doy.spectralIndex = "doy";
+				doy.plotSpectrals = plotSpectrals;
+				doy.vertexSpectrals = vertexSpectrals;	
+
+				turb.spectralIndex = "turb";
+				turb.plotSpectrals = plotSpectrals;
+				turb.vertexSpectrals = vertexSpectrals;	
+			}
+			
+			protected function initGraph(event:FlexEvent):void
+			{
+				// TODO Auto-generated method stub
+				wetness = new TrajectoryChart();
+				wetness.percentHeight=100;
+				wetness.percentWidth=100;
+				wetnessbox.addChild(wetness);
+				
+				ndsi = new TrajectoryChart();
+				ndsi.percentHeight=100;
+				ndsi.percentWidth=100;
+				ndsibox.addChild(ndsi);
+				
+				ndvi = new TrajectoryChart();
+				ndvi.percentHeight=100;
+				ndvi.percentWidth=100;
+				ndvibox.addChild(ndvi);
+				
+				brightness = new TrajectoryChart();
+				brightness.percentHeight=100;
+				brightness.percentWidth=100;
+				brightnessbox.addChild(brightness);
+
+				greenness = new TrajectoryChart();
+				greenness.percentHeight=100;
+				greenness.percentWidth=100;
+				greennessbox.addChild(greenness);
+
+				b3b5 = new TrajectoryChart();
+				b3b5.percentHeight=100;
+				b3b5.percentWidth=100;
+				b3b5box.addChild(b3b5);
+
+				b1 = new TrajectoryChart();
+				b1.percentHeight=100;
+				b1.percentWidth=100;
+				b1box.addChild(b1);
+				
+				b2 = new TrajectoryChart();
+				b2.percentHeight=100;
+				b2.percentWidth=100;
+				b2box.addChild(b2);
+				
+				b3 = new TrajectoryChart();
+				b3.percentHeight=100;
+				b3.percentWidth=100;
+				b3box.addChild(b3);
+
+				b4 = new TrajectoryChart();
+				b4.percentHeight=100;
+				b4.percentWidth=100;
+				b4box.addChild(b4);
+				
+				b5 = new TrajectoryChart();
+				b5.percentHeight=100;
+				b5.percentWidth=100;
+				b5box.addChild(b5);
+				
+				b7 = new TrajectoryChart();
+				b7.percentHeight=100;
+				b7.percentWidth=100;
+				b7box.addChild(b7);
+				
+				doy = new TrajectoryChart();
+				doy.percentHeight=100;
+				doy.percentWidth=100;
+				doybox.addChild(doy);
+				
+				turb = new TrajectoryChart();
+				turb.percentHeight=100;
+				turb.percentWidth=100;
+				//turbbox.addChild(turb);
+				
+				initMenu();
+			}
+			
+			protected function initMenu():void
+			{
+				var autoMenu:ContextMenuItem = new ContextMenuItem("Plot Stretch");
+				autoMenu.addEventListener(ContextMenuEvent.MENU_ITEM_SELECT, resetScale_Handler);
+				
+				var resetMenu:ContextMenuItem = new ContextMenuItem("Global Stretch");
+				resetMenu.addEventListener(ContextMenuEvent.MENU_ITEM_SELECT, resetScale_Handler);
+				
+				var menu:ContextMenu = new ContextMenu();
+				menu.hideBuiltInItems();
+				menu.customItems.push(resetMenu);
+				menu.customItems.push(autoMenu);
+				menu.hideBuiltInItems();
+				
+				this.contextMenu = menu;
+			}
+			
+			public function resetScale_Handler(event:ContextMenuEvent):void
+			{
+				trace("Reset scale");
+				var m:ContextMenuItem = event.target as ContextMenuItem;
+				switch (tabnav.selectedIndex) {
+					case 0:
+						ndsi.resetScale_Handler(m.caption);
+						break;
+					case 1:
+						b3b5.resetScale_Handler(m.caption);
+						break;
+					case 2:
+						brightness.resetScale_Handler(m.caption);
+						break;
+					case 3:
+						greenness.resetScale_Handler(m.caption);
+						break;
+					case 4:
+						wetness.resetScale_Handler(m.caption);
+						break;
+					case 5:
+						ndvi.resetScale_Handler(m.caption);
+						break;
+					case 6:
+						b1.resetScale_Handler(m.caption);
+						break;
+					case 7:
+						b2.resetScale_Handler(m.caption);
+						break;
+					case 8:
+						b3.resetScale_Handler(m.caption);
+						break;
+					case 9:
+						b4.resetScale_Handler(m.caption);
+						break;
+					case 10:
+						b5.resetScale_Handler(m.caption);
+						break;
+					case 11:
+						b7.resetScale_Handler(m.caption);
+						break;
+					case 12:
+						doy.resetScale_Handler(m.caption);
+						break;
+					case 13:
+						turb.resetScale_Handler(m.caption);
+						break;
+				}
+			}
+			
+			public function resetScale(stretch:String="Global Stretch"):void {
+				wetness.resetScale_Handler(stretch);	
+				ndsi.resetScale_Handler(stretch);
+				ndvi.resetScale_Handler(stretch);
+				brightness.resetScale_Handler(stretch);
+				greenness.resetScale_Handler(stretch);
+				b3b5.resetScale_Handler(stretch);
+				b1.resetScale_Handler(stretch);
+				b2.resetScale_Handler(stretch);
+				b3.resetScale_Handler(stretch);
+				b4.resetScale_Handler(stretch);
+				b5.resetScale_Handler(stretch);
+				b7.resetScale_Handler(stretch);
+				doy.resetScale_Handler(stretch);
+				turb.resetScale_Handler(stretch);
+			}
+			
+		]]>
+	</fx:Script>
+	
+	
+	<mx:TabNavigator id="tabnav" width="100%" height="100%">
+		<mx:VBox id="ndsibox" width="100%" height="100%" label="NDSI"/>
+		<!--
+		<mx:VBox id="wetnessbox" width="100%" height="100%" label="Wetness"/>
+		<mx:VBox id="anglebox" width="100%" height="100%" label="Angle"/>
+		<mx:VBox id="nbrbox" width="100%" height="100%" label="NBR"/>
+		<mx:VBox id="ndvibox" width="100%" height="100%" label="NDVI"/>
+		<mx:VBox id="brightnessbox" width="100%" height="100%" label="Brightness"/>
+		<mx:VBox id="greennessbox" width="100%" height="100%" label="Greenness"/>
+		-->
+		<mx:VBox id="b3b5box" width="100%" height="100%" label="B3/B5"/>
+		<mx:VBox id="brightnessbox" width="100%" height="100%" label="TC1" toolTip="Brightness"/>
+		<mx:VBox id="greennessbox" width="100%" height="100%" label="TC2" toolTip="Greenness"/>
+		<mx:VBox id="wetnessbox" width="100%" height="100%" label="TC3" toolTip="Wetness"/>
+		<mx:VBox id="ndvibox" width="100%" height="100%" label="NDVI"/>
+		<mx:VBox id="b1box" width="100%" height="100%" label="B1"/>
+		<mx:VBox id="b2box" width="100%" height="100%" label="B2"/>
+		<mx:VBox id="b3box" width="100%" height="100%" label="B3"/>
+		<mx:VBox id="b4box" width="100%" height="100%" label="B4"/>
+		<mx:VBox id="b5box" width="100%" height="100%" label="B5"/>
+		<mx:VBox id="b7box" width="100%" height="100%" label="B7"/>
+		<mx:VBox id="doybox" width="100%" height="100%" label="DOY" toolTip="Day of Year"/>
+		<!--
+		<mx:VBox id="turbbox" width="100%" height="100%" label="LTURB" toolTip="log10(Water Turbidity)"/>
+		-->
+	</mx:TabNavigator>
+</s:Panel>

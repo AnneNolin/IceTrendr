@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:ComboBoxGridItemEditor xmlns:fx="http://ns.adobe.com/mxml/2009" 
+						  xmlns:s="library://ns.adobe.com/flex/spark" 
+						  xmlns:mx="library://ns.adobe.com/flex/mx" 
+						  creationComplete="onCreationComplete(event)"
+						  width="400" height="300">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import mx.events.FlexEvent;
+			
+			protected function onCreationComplete(event:FlexEvent):void
+			{
+				this.comboBox.textInput.editable = false;
+			}
+		]]>
+	</fx:Script>
+	
+	<s:dataProvider>
+		<s:ArrayList>
+			<fx:String>Stable</fx:String>
+			<fx:String>Glacier Retreat</fx:String>			
+			<fx:String>Glacier Advance</fx:String>
+			<fx:String>Albedo Increase</fx:String>
+			<fx:String>Albedo Decrease</fx:String>
+			<fx:String>Debris Flow</fx:String>
+			<fx:String>Water - Glacier Flood</fx:String>
+			<fx:String>Water - Fluvial Changes</fx:String>
+			<fx:String>Water - Supraglacial</fx:String>
+			<fx:String>Vegetation Growth</fx:String>
+			<fx:String>Other</fx:String>
+		</s:ArrayList>
+	</s:dataProvider>
+</s:ComboBoxGridItemEditor>
