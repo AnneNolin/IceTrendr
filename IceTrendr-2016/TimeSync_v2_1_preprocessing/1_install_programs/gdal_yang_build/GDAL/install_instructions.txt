@@ -1,0 +1,35 @@
+1.  install python 2.6.6
+	double click on the file "python-2.6.6.msi" to start the install.
+
+2.  install numpy
+	double click on the numpy installer "numpy-1.6.1-win32-superpack-python2.6.exe"
+	follow the on-screen instructions
+
+3.  copy the 'GDAL' folder to a semi-perminent location such as the C drive - C:\
+
+4.  install the python to gdal bindings
+	double click on the GDAL-1.9.0.win32-py2.6.exe file
+
+
+5.  add the path of gdal install to the computers system variables so that it can be called from
+    windows command prompt
+	a. go to: start> control panel> system
+	b. in left panel double click on advanced system settings then hit the "environmental variables" button
+	c. under the "system variables" section scroll down to the variable "PATH" and click edit.
+	d. in the "variable value" field make sure your cursor is all the way at the end of the list of path values
+		and enter the path to the gdal\bin folder (wherever you pasted the gdal folder - open it > open the 'bin'
+		folder and copy the path to the bin folder) paste the path
+		
+		!!! make sure to add a semi-colon (;) to separate the path values... 
+		as in: C:\temp;C:\junk;C:\mock;C:\GDAL\bin and don't delete anything that already exists!!!
+
+6.  add two new variables to the system if they don't already exist
+	a. in the environment variables window scroll through the system variables and check to see if either
+           of the following varibles exist:  GDAL_DATA   PROJ_LIB
+	b. if they exist enter the following paths as you did in section 5 			
+
+		GDAL_DATA = PATH_TO_GDAL\data
+		PROJ_LIB = PATH_TO_GDAL\bin\proj\SHARE
+	c. if a variable does not exist then you must add them - click the "new..." button
+		enter the variable name (GDAL_DATA  and/or PROJ_LIB) and the variable value is the path described in
+		section 6b
